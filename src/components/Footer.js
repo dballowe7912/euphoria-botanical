@@ -11,11 +11,11 @@ function Footer() {
             </div>
         
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li><a href="#" className="fa fa-facebook"></a></li>
-                <li><a href="#" className="fa fa-instagram instagram"></a></li>
+                {/* <li><a href="#" className="fa fa-facebook"></a></li>
+                <li><a href="#" className="fa fa-instagram instagram"></a></li> */}
             </ul>
         </footer>
     )
 }
 
-export default Footer
+export default Footer;

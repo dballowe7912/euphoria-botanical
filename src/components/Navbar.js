@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a className="navbar-brand" href="#">Euphoria Botanical</a>
+            <Link 
+                className="navbar-brand" 
+                to="/"
+            >
+                Euphoria Botanical
+            </Link>
             <button className="navbar-toggler" id="toggleButt" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
