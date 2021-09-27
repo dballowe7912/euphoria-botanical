@@ -7,7 +7,15 @@ function ContactPage() {
     return (
         <div>
             <Navbar/>
-            <h1>ContactPage</h1>
+            <div class="form-group">
+            <input 
+                type="text" 
+                class="form-control" 
+                id="fullName" 
+                aria-describedby="Enter Name" 
+                placeholder="Full Name"
+            />
+        </div>
             <Header/>
             <Footer/>
         </div>
