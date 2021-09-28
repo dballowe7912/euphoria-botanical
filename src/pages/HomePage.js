@@ -56,7 +56,6 @@ function HomePage() {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-            {/* <Header/> */}
             <Footer/>
         </div>
     )

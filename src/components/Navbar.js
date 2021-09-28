@@ -18,7 +18,6 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        {/* <a className="nav-link" href="./index.html">Home <span className="sr-only">(current)</span></a> */}
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
 
@@ -29,6 +28,7 @@ export default function Navbar() {
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <Link className="dropdown-item" to="/herbs">Dry Herbs</Link>
+                            <Link className="dropdown-item" to="/teas">Bulk Teas</Link>
                         </div>
                     </li>
                     <li className="nav-item">

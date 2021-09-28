@@ -298,4 +298,247 @@ export const dryHerbs = [
         ],
         details: "Burning White Sage is a ritual known for smudging. Smudging is a cleansing ceremony used to help people, places, or even objects to get rid of negative energy or even bad spirits."
     },
+];
+
+export const bulkTea = [
+    {
+        name: "Hibiscus Heaven",
+        price: 2.60
+    },
+    {
+        name: "English Breakfast Tea",
+        price: 2.75
+    },
+    {
+        name: "Moringa Mint Tea",
+        price: 2.80
+    },
+    {
+        name: "Black Tea",
+        price: 3.00
+    },
+    {
+        name: "Mad Hatter",
+        price: 3.00
+    },
+    {
+        name: "Moroccan Mint",
+        price: 3.00
+    },
+    {
+        name: "Mulling Spice",
+        price: 3.00
+    },
+    {
+        name: "Stay Well Tea",
+        price: 3.00
+    },
+    {
+        name: "Chai Tea",
+        price: 3.00
+    },
+    {
+        name: "Blackberry Tea",
+        price: 3.20
+    },
+    {
+        name: "Earl Grew",
+        price: 3.25
+    },
+    {
+        name: "Strawberry",
+        price: 3.25
+    },
+    {
+        name: "Yerba Mate",
+        price: 3.25
+    },
+    {
+        name: "Passion Fruit Chai",
+        price: 3.25
+    },
+    {
+        name: "Lazy Daze",
+        price: 3.30
+    },
+    {
+        name: "Regularitea",
+        price: 3.50
+    },
+    {
+        name: "Gunpowder Green Tea",
+        price: 3.50
+    },
+    {
+        name: "Bidens Pilosa",
+        price: 3.75
+    },
+    {
+        name: "Cecropia Palmata",
+        price: 3.75
+    },
+    {
+        name: "Oolong",
+        price: 3.75
+    },
+    {
+        name: "Afternoon Delight",
+        price: 3.75
+    },
+    {
+        name: "Lemon Ginger",
+        price: 3.75
+    },
+    {
+        name: "Pu ehr Tea",
+        price: 3.90
+    },
+    {
+        name: "Matcha Green Tea",
+        price: 4.00
+    },
+    {
+        name: "Jasmine Tea",
+        price: 4.20
+    },
+    {
+        name: "Mango Tea",
+        price: 4.25
+    },
+    {
+        name: "Da Hong Pao Oolong",
+        price: 4.50
+    },
+    {
+        name: "Roasted Yerba Mate",
+        price: 4.50
+    },
+    {
+        name: "Rooibos Chai Tea",
+        price: 4.60
+    },
+];
+
+export const spellJarEarrings = [
+    {
+        name: "Protection",
+        price: 15.00
+    },
+    {
+        name: "Anti-anxiety",
+        price: 15.00
+    },
+    {
+        name: "Love",
+        price: 15.00
+    },
+    {
+        name: "Strength",
+        price: 15.00
+    },
+    {
+        name: "Weight Loss",
+        price: 15.00
+    },
+    {
+        name: "Psychic Energy & Divination",
+        price: 15.00
+    },
+];
+
+export const spellJarNecklace = [
+    {
+        name: "Anti-depression",
+        price: 10.00
+    },
+    {
+        name: "Banishing",
+        price: 10.00
+    },
+    {
+        name: "Fertility",
+        price: 10.00
+    },
+    {
+        name: "Good Healt",
+        price: 10.00
+    },
+    {
+        name: "Healing",
+        price: 10.00
+    },
+    {
+        name: "Money & Success",
+        price: 10.00
+    },
+    {
+        name: "Protection",
+        price: 10.00
+    },
+    {
+        name: "Pyschic Energy & Divination",
+        price: 10.00
+    },
+    {
+        name: "Self Love",
+        price: 10.00
+    },
+    {
+        name: "Weight Loss",
+        price: 10.00
+    },
+];
+
+export const crystalSpellNecklace = [
+    {
+        name: "Money & Success",
+        price: 25.00
+    },
+    {
+        name: "Luck",
+        price: 25.00
+    },
+];
+
+export const spiritualMoonchildProducts = [
+    {
+        name: "Anxiety Banish Necklace",
+        price: 20.00
+    },
+    {
+        name: "Depression Banish Necklace",
+        price: 20.00
+    },
+    {
+        name: "Fertility Necklace",
+        price: 20.00
+    },
+    {
+        name: "Good Luck Necklace",
+        price: 20.00
+    },
+    {
+        name: "Grounding Necklace",
+        price: 20.00
+    },
+    {
+        name: "Higher Self Necklace",
+        price: 20.00
+    },
+    {
+        name: "XL Prosperity Necklace",
+        price: 25.00
+    },
+    {
+        name: "Protection Necklace",
+        price: 20.00
+    },
+    {
+        name: "Self Love Necklace",
+        price: 20.00
+    },
+    {
+        name: "Wealth-Income Necklace",
+        price: 20.00
+    },
 ]

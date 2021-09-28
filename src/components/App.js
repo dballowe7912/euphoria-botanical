@@ -10,12 +10,16 @@ import {
 
 import './App.css';
 import DryHerbs from '../pages/DryHerbs';
+import BulkTea from '../pages/BulkTea';
 
 const App = () => {
     return (
         <div>
             <Router>
                 <Switch>
+                    <Route path="/teas">
+                        <BulkTea/>
+                    </Route>
                     <Route path="/herbs">
                         <DryHerbs/>
                     </Route>
