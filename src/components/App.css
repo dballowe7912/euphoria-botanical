@@ -4,8 +4,8 @@
     height: 100vh;
     min-height: 500px;
     background-image: url('../assets/homepage/store-front.jpg');
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: left;
     background-repeat: no-repeat;
   }
   
