@@ -8,7 +8,6 @@ function AboutPage() {
         <div>
             <Navbar/>
             <h1>AboutPage</h1>
-            <Header/>
             <Footer/>
         </div>
     )
