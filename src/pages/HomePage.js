@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import teaWall from '../assets/homepage/tea-wall.jpg';
+import storeFront from '../assets/homepage/store-front.jpg';
 import centerTable from '../assets/homepage/center-table.jpg';
 import skateBoard from '../assets/homepage/skate-board.jpg';
 
@@ -12,6 +12,11 @@ function HomePage() {
         <div>
             <Navbar/>
             <Header/>
+            <div 
+                className="container-fluid"
+                style={{height: "100vh"}}
+            >
+            </div>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -20,7 +25,7 @@ function HomePage() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={teaWall} alt="First slide"/>
+                        <img className="d-block w-100" src={storeFront} alt="First slide"/>
                             <div class="carousel-caption">
                                 <div>
                                     <h5>Euphoria Botanical</h5>

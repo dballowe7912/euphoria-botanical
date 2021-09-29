@@ -7,7 +7,6 @@ export default function Navbar() {
             <Link 
                 className="navbar-brand" 
                 to="/"
-                style={{color: '#FFF', fontSize: "2em"}}
             >
                 Euphoria Botanical
             </Link>
