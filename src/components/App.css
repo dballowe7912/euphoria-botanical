@@ -39,15 +39,16 @@
 
 .bulk-tea-list-name {
   font-size: 80%; 
-  border-left: 1px solid; 
-  border-bottom: 1px solid;
+  /* border-left: 1px solid; 
+  border-bottom: 1px solid; */
   line-height: 2em;
 }
 
 .bulk-tea-list {
   font-size: 75%;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
+  /* border-right: 1px solid;
+  border-bottom: 1px solid; */
 }
 
-  
+/* Color Scheme */
+/* #7AC143 */
