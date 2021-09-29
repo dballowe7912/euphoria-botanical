@@ -300,13 +300,13 @@ export const dryHerbs = [
     },
 ];
 
-export const bulkTea = [
+const bulkTea = [
     {
         name: "Hibiscus Heaven",
         price: 2.60
     },
     {
-        name: "English Breakfast Tea",
+        name: "English Breakfast",
         price: 2.75
     },
     {
@@ -416,7 +416,7 @@ export const bulkTea = [
     {
         name: "Rooibos Chai Tea",
         price: 4.60
-    },
+    }
 ];
 
 export const spellJarEarrings = [
@@ -542,3 +542,6 @@ export const spiritualMoonchildProducts = [
         price: 20.00
     },
 ]
+
+
+export default bulkTea;

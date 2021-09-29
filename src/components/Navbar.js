@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top" style={{backgroundColor: '#7AC143'}}>
             <Link 
                 className="navbar-brand" 
                 to="/"
+                style={{color: '#FFF', fontSize: "2em"}}
             >
                 Euphoria Botanical
             </Link>
