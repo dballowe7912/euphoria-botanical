@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import bulkTea from '../data.js';
+import {bulkTea} from '../data.js';
 
 const renderListName = bulkTea.map((tea) =>
             <>

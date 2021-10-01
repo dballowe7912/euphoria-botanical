@@ -1,4 +1,4 @@
-export const dryHerbs = [
+const dryHerbs = [
     {
         commonName: "Akuamma",
         scientificName: "Picralima Nitida",
@@ -419,7 +419,9 @@ const bulkTea = [
     }
 ];
 
-export const spellJarEarrings = [
+//Jewelry
+
+const spellJarEarrings = [
     {
         name: "Protection",
         price: 15.00
@@ -446,7 +448,7 @@ export const spellJarEarrings = [
     },
 ];
 
-export const spellJarNecklace = [
+const spellJarNecklace = [
     {
         name: "Anti-depression",
         price: 10.00
@@ -489,7 +491,7 @@ export const spellJarNecklace = [
     },
 ];
 
-export const crystalSpellNecklace = [
+const crystalSpellNecklace = [
     {
         name: "Money & Success",
         price: 25.00
@@ -500,7 +502,7 @@ export const crystalSpellNecklace = [
     },
 ];
 
-export const spiritualMoonchildProducts = [
+const spiritualMoonchildProducts = [
     {
         name: "Anxiety Banish Necklace",
         price: 20.00
@@ -541,7 +543,296 @@ export const spiritualMoonchildProducts = [
         name: "Wealth-Income Necklace",
         price: 20.00
     },
-]
+];
+
+//Oils
+
+const essentialOils10ml = [
+    {
+        name: "Geranium",
+        price: 7.99
+    },
+    {
+        name: "Bergamot",
+        price: 7.99
+    },
+    {
+        name: "Cedarwood",
+        price: 7.99
+    },
+    {
+        name: "Clary Sage",
+        price: 7.99
+    },
+    {
+        name: "Clove Bud",
+        price: 7.99
+    },
+    {
+        name: "Eukalyptus",
+        price: 7.99
+    },
+    {
+        name: "Frankincense",
+        price: 7.99
+    },
+    {
+        name: "Jasmine (3% Dilution)",
+        price: 7.99
+    },
+    {
+        name: "Lavender",
+        price: 7.99
+    },
+    {
+        name: "Lemon",
+        price: 7.99
+    },
+    {
+        name: "Lemongrass",
+        price: 7.99
+    },
+    {
+        name: "Multipurpose Infection Fighting Blend",
+        price: 7.99
+    },
+    {
+        name: "Oregano",
+        price: 7.99
+    },
+    {
+        name: "Patchouli",
+        price: 7.99
+    },
+    {
+        name: "Peppermint",
+        price: 7.99
+    },
+    {
+        name: "Rosemary",
+        price: 7.99
+    },
+    {
+        name: "Tea Tree",
+        price: 7.99
+    },
+    {
+        name: "Thieves",
+        price: 7.99
+    },
+    {
+        name: "Topical Cold & Flu",
+        price: 7.99
+    },
+    {
+        name: "Vetiver",
+        price: 9.99
+    },
+    {
+        name: "Vanilla Spice",
+        price: 7.50
+    },
+    {
+        name: "Palo Santo",
+        price: 23.00
+    },
+    {
+        name: "Bye bye Summer Flies (diffuser blend)",
+        price: 8.99
+    },
+    {
+        name: "Christmas Cookie",
+        price: 8.99
+    },
+];
+
+const essentialOilsRollons = [
+    {
+        name: "Into the Woods",
+        price: 10.99
+    },
+    {
+        name: "He's so Fresh",
+        price: 10.00
+    },
+    {
+        name: "Sunshine Kisses",
+        price: 12.99
+    },
+    {
+        name: "Vanilla Spice",
+        price: 12.99
+    },
+    {
+        name: "Headache Relief",
+        price: 12.99
+    }
+];
+
+// 1ml Dram Diffuser Blend
+// 2ml Dram Diffuser Blend
+
+//Sprays
+
+const roomSprays = [
+    {
+        name: "Bug Off Spray (30ml)",
+        price: 12.99
+    },
+    {
+        name: "Bugg Off Spray (60ml)",
+        price: 19.99
+    },
+    {
+        name: "Fresh out of Fucks",
+        price: 22.00
+    },
+    {
+        name: "Witch in the Woods",
+        price: 22.00
+    },
+];
+
+const bodySprays = [
+    {
+        name: "Gingerbread",
+        price: 9.99
+    },
+    {
+        name: "Harvest Spice",
+        price: 9.99
+    },
+    {
+        name: "Vanilla Spice",
+        price: 9.99
+    },
+    {
+        name: "Into the Woods",
+        price: 9.99
+    },
+];
+
+//Soaps
+
+const soaps = [
+    {
+        name: "Apple Cantaloupe",
+        price: 7.50
+    },
+    {
+        name: "Banana Coconut Scrub",
+        price: 7.50
+    },
+    {
+        name: "Black Forest",
+        price: 7.50
+    },
+    {
+        name: "Black Raspberry Vanilla",
+        price: 7.50
+    },
+    {
+        name: "Black Soap",
+        price: 7.50
+    },
+    {
+        name: "Cool Fresh Aloe",
+        price: 7.50
+    },
+    {
+        name: "Berry Sage",
+        price: 7.50
+    },
+    {
+        name: "Lavender",
+        price: 7.50
+    },
+    {
+        name: "Petal Dance",
+        price: 7.50
+    },
+    {
+        name: "Wild Passion",
+        price: 7.50
+    },
+    {
+        name: "Glacier Stream",
+        price: 7.50
+    },
+    {
+        name: "Honeysuckle",
+        price: 7.50
+    },
+    {
+        name: "Jasmine Lime",
+        price: 7.50
+    },
+    {
+        name: "Moonlight & Roses",
+        price: 7.50
+    },
+    {
+        name: "Summer Citrus",
+        price: 7.50
+    },
+    {
+        name: "Vanilla Oatmeal",
+        price: 7.50
+    },
+    {
+        name: "White Tea Ginger",
+        price: 7.50
+    },
+    {
+        name: "Ylang Ylang Lavender",
+        price: 7.50
+    },
+];
+
+const petiteGoatsMilk = [
+    {
+        name: "Lavender and Oatmeal",
+        price: 4.00
+    },
+    {
+        name: "Harvest Spice",
+        price: 4.00
+    },
+    {
+        name: "Milk & Honey",
+        price: 4.00
+    }
+];
+
+const goatsMilk3oz = [
+    {
+        name: "Hey Pumpkin",
+        price: 6.00
+    },
+];
+
+const goatsMilk4oz = [
+    {
+        name: "Hey Pumpkin",
+        price: 8.00
+    },
+    {
+        name: "Milk & Honey",
+        price: 8.00
+    },
+    {
+        name: "Sunnydaze",
+        price: 8.00
+    },
+    {
+        name: "Summer Vacation",
+        price: 8.00
+    },
+];
 
 
-export default bulkTea;
+
+export { 
+    dryHerbs, bulkTea,spellJarEarrings, spellJarNecklace, crystalSpellNecklace, spiritualMoonchildProducts, 
+    essentialOils10ml, essentialOilsRollons, roomSprays, bodySprays, soaps, goatsMilk3oz, goatsMilk4oz, petiteGoatsMilk
+}
