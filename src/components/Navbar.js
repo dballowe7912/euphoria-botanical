@@ -29,6 +29,10 @@ export default function Navbar() {
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <Link className="dropdown-item" to="/herbs">Dry Herbs</Link>
                             <Link className="dropdown-item" to="/teas">Bulk Teas</Link>
+                            <Link className="dropdown-item" to="/oils">Essential Oils</Link>
+                            <Link className="dropdown-item" to="/soaps">Soaps</Link>
+                            <Link className="dropdown-item" to="/jewelry">Jewelry</Link>
+                            <Link className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
                         </div>
                     </li>
                     <li className="nav-item">

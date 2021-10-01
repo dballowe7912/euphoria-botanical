@@ -545,7 +545,7 @@ const spiritualMoonchildProducts = [
     },
 ];
 
-//Oils
+// Essential Oils
 
 const essentialOils10ml = [
     {

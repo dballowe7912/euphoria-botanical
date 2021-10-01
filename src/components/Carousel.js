@@ -1,8 +1,8 @@
 import React from "react";
 
-import storeFront from '../assets/homepage/store-front.jpg';
-import centerTable from '../assets/homepage/center-table.jpg';
-import skateBoard from '../assets/homepage/skate-board.jpg';
+import storeFront from '../assets/carousel-photos/store-front.jpg';
+import centerTable from '../assets/carousel-photos/center-table.jpg';
+import skateBoard from '../assets/carousel-photos/skate-board.jpg';
 
 function Carousel() {
     return (
