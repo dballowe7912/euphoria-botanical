@@ -75,7 +75,7 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row">                 
                     <div className="col-md-2"></div>
                     <div className="col-md-4">
                             <div className="card mb-4 box-shadow">

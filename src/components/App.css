@@ -44,19 +44,14 @@ h5 {
 }
 
 
-/* Bulk Tea Page */
+/* List Helper Fuction CSS */
 
-.bulk-tea-title {
+.list-title {
   margin: 1em 0;
 }
 
-.bulk-tea-list-name {
-  font-size: 80%; 
+.list-name {
   line-height: 2em;
-}
-
-.bulk-tea-list {
-  font-size: 75%;
 }
 
 /* Color Scheme */
