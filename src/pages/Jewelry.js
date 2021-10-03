@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-
 import { renderList } from '../helper';
+
 import { spellJarEarrings } from '../data';
 import { spellJarNecklace } from '../data';
 import { crystalSpellNecklace } from '../data';

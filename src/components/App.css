@@ -43,6 +43,11 @@ h5 {
   justify-content: center;
 }
 
+/* Contact Page */
+
+.contact-title {
+  margin: 1em 0;
+}
 
 /* List Helper Fuction CSS */
 

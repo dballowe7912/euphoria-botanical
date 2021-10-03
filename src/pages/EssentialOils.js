@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer.js';
 
 import { renderList } from '../helper.js';
+
 import {essentialOils10ml} from '../data.js';
 import {essentialOilsRollons} from '../data.js';
 

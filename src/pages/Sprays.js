@@ -3,8 +3,9 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 import { renderList } from '../helper';
-import { bodySprays } from '../data';
+
 import { roomSprays } from '../data';
+import { bodySprays } from '../data';
 
 function Sprays() {
     return (

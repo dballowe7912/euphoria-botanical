@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 import { renderList } from '../helper';
+
 import { soaps } from '../data';
 import { goatsMilk3oz } from '../data';
 import { goatsMilk4oz } from '../data';

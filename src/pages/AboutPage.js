@@ -6,7 +6,8 @@ function AboutPage() {
     return (
         <div>
             <Navbar/>
-            <h1>AboutPage</h1>
+            <h1>Euphoria Botanical</h1>
+            <p></p>
             <Footer/>
         </div>
     )
