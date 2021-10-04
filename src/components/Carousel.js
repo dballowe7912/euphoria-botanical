@@ -15,7 +15,7 @@ function Carousel() {
                 <div className="carousel-inner">
                     <div className="carousel-item">
                         <img className="d-block w-100" src={storeFront} alt="First slide"/>
-                            <div class="carousel-caption">
+                            <div className="carousel-caption">
                                 <div>
                                     <h5>Euphoria Botanical</h5>
                                     <p>Let Euphoria Botanical be your go to source for all of your botanical needs and requests.</p>
@@ -24,7 +24,7 @@ function Carousel() {
                     </div>
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={skateBoard} alt="Second slide"/>
-                            <div class="carousel-caption">
+                            <div className="carousel-caption">
                                         <div>
                                             <h5>Euphoria Botanical</h5>
                                             <p>Let Euphoria Botanical be your go to source for all of your botanical needs and requests.</p>
@@ -33,7 +33,7 @@ function Carousel() {
                             </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={centerTable} alt="Third slide"/>
-                            <div class="carousel-caption">
+                            <div className="carousel-caption">
                                         <div>
                                             <h5>Euphoria Botanical</h5>
                                             <p>Let Euphoria Botanical be your go to source for all of your botanical needs and requests.</p>
