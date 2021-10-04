@@ -22,7 +22,7 @@ function HomePage() {
                             <div className="card mb-4 box-shadow">
                                 <img className="card-img-top" 
                                     data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                                    alt="Thumbnail [100%x225]" 
+                                    alt="Essential Oils Thumbnail" 
                                     src={oil}
                                     data-holder-rendered="true"
                                 />
@@ -42,7 +42,7 @@ function HomePage() {
                         <div className="card mb-4 box-shadow">
                             <img className="card-img-top" 
                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                                alt="Thumbnail [100%x225]" 
+                                alt="Dry Herbs Thumbnail" 
                                 src={herbs} 
                                 data-holder-rendered="true" 
                             />
@@ -60,7 +60,7 @@ function HomePage() {
                             <div className="card mb-4 box-shadow">
                                 <img className="card-img-top" 
                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                                alt="Thumbnail [100%x225]" 
+                                alt="Bulk Teas Thumbnail" 
                                 src={teawall} 
                                 data-holder-rendered="true" 
                                 />
@@ -81,7 +81,7 @@ function HomePage() {
                             <div className="card mb-4 box-shadow">
                                 <img className="card-img-top" 
                                     data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                                    alt="Thumbnail [100%x225]" 
+                                    alt="Handcrafted Soap Thumbnail" 
                                     src={soap}
                                     data-holder-rendered="true"
                                 />
@@ -102,7 +102,7 @@ function HomePage() {
                             <div className="card mb-4 box-shadow">
                                 <img className="card-img-top" 
                                     data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                                    alt="Thumbnail [100%x225]" 
+                                    alt="Jewelry Thumbnail" 
                                     src={oil}
                                     data-holder-rendered="true"
                                 />

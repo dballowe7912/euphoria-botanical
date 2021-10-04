@@ -49,6 +49,15 @@ h5 {
   margin: 1em 0;
 }
 
+/* About Page */
+
+.about-main-container {
+  text-align: center;
+  font-family: 'Charm', cursive !important;
+  margin: 1.5em 1em;
+  font-size: 1.5em;
+}
+
 /* List Helper Fuction CSS */
 
 .list-title {
