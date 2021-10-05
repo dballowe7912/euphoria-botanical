@@ -949,7 +949,8 @@ const crystalsAndStones = [
     },
     {
         name: "Amber",
-        price: 2.50
+        price: 5.00,
+        qty: 2
     },
     {
         name: "Amber Nugget Necklace",

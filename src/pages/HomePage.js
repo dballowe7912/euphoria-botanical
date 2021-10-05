@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
@@ -12,6 +12,11 @@ import soap from '../assets/homepage/soaps.jpg';
 import jewelry from '../assets/homepage/jewelry.jpg'
 
 function HomePage() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     let history = useHistory();
 
     function handleOilClick() {

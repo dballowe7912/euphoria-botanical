@@ -36,6 +36,7 @@ export default function Navbar() {
                             <Link className="dropdown-item" to="/soaps">Soaps</Link>
                             <Link className="dropdown-item" to="/jewelry">Jewelry</Link>
                             <Link className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
+                            <Link className="dropdown-item" to="/crystals-and-stones">Crystals and Stones</Link>   
                         </div>
                     </li>
                     <li className="nav-item">

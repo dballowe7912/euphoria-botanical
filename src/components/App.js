@@ -15,12 +15,16 @@ import EssentialOils from '../pages/EssentialOils';
 import Soaps from '../pages/Soaps';
 import Jewelry from '../pages/Jewelry';
 import Sprays from '../pages/Sprays';
+import CrystalsAndStones from '../pages/CrystalsAndStones';
 
 const App = () => {
     return (
         <div>
             <Router>
                 <Switch>
+                    <Route path="/crystals-and-stones">
+                        <CrystalsAndStones/>
+                    </Route>
                     <Route path="/sprays">
                         <Sprays/>
                     </Route>
