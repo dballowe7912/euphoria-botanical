@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer.js';
 
@@ -8,7 +8,11 @@ import {essentialOils10ml} from '../data.js';
 import {essentialOilsRollons} from '../data.js';
 
 function EssentialOils() {
-    console.log(renderList(essentialOils10ml))
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div className="essential-oils-page">
             <div className="custom-font">

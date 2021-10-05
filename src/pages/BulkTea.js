@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
@@ -7,6 +7,11 @@ import { bulkTea } from '../data.js';
 
 
 function BulkTea() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div className="custom-font">
             <Navbar/>

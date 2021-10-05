@@ -43,6 +43,10 @@ h5 {
   justify-content: center;
 }
 
+img.card-img-top {
+  height: 275px;
+}
+
 /* Contact Page */
 
 .contact-title {

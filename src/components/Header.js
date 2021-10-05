@@ -7,7 +7,7 @@ function Header() {
                 <div className="row h-100 align-items-center">
                     <div className="col-12 text-center">
                     <h1 className="fw-light">EUPHORIA BOTANICAL</h1>
-                    <p className="lead">We are here for all your botanical, medicinal & Skate Gear needs! </p>
+                    <p className="lead">We are here for all your Botanical & Skate Gear needs! </p>
                     <button className="btn btn-success">Shop Now!</button>
                     </div>
                 </div>

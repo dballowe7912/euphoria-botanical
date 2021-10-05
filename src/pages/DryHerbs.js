@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { dryHerbs } from '../data';
 
 // Images
@@ -29,7 +29,11 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
 function DryHerbs() {
-    console.log(dryHerbs);
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
     <div className="dry-herbs-page">
         <Navbar/>

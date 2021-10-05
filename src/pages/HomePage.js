@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -8,8 +9,31 @@ import oil from '../assets/homepage/oil.jpg';
 import herbs from '../assets/homepage/herbs.jpg';
 import teawall from '../assets/homepage/tea-wall.jpg';
 import soap from '../assets/homepage/soaps.jpg';
+import jewelry from '../assets/homepage/jewelry.jpg'
 
 function HomePage() {
+    let history = useHistory();
+
+    function handleOilClick() {
+        history.push("/oils");
+    }
+
+    function handleHerbsClick() {
+        history.push("/herbs");
+    }
+
+    function handleTeaClick() {
+        history.push("/teas");
+    }
+
+    function handleSoapsClick() {
+        history.push("/soaps");
+    }
+
+    function handleJewelryClick() {
+        history.push("/jewelry");
+    }
+
     return (
         <div className="home-page">
             <Navbar/>
@@ -31,6 +55,7 @@ function HomePage() {
                                     <div className="d-flex align-items-center shop-button">
                                         <div className="btn-group">
                                             <button 
+                                                onClick={handleOilClick}
                                                 type="button" 
                                                 className="btn btn btn-success">Shop Oils</button>
                                         </div>
@@ -50,7 +75,13 @@ function HomePage() {
                                 <h5 className="card-text">Dry Herbs</h5>
                                 <div className="d-flex align-items-center shop-button">
                                     <div className="btn-group">
-                                        <button type="button" className=" btn btn-success">Shop Herbs</button>
+                                        <button 
+                                            type="button" 
+                                            className=" btn btn-success"
+                                            onClick={handleHerbsClick}
+                                        >
+                                            Shop Herbs
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +99,13 @@ function HomePage() {
                                     <h5 className="card-text">Bulk Teas</h5>
                                     <div className="d-flex align-items-center shop-button">
                                         <div className="btn-group">
-                                            <button type="button" className="btn btn btn-success">Shop Teas</button>
+                                            <button 
+                                                type="button" 
+                                                className="btn btn btn-success"
+                                                onClick={handleTeaClick}
+                                            >
+                                                Shop Teas
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -90,8 +127,12 @@ function HomePage() {
                                     <div className="d-flex align-items-center shop-button">
                                         <div className="btn-group">
                                             <button 
+                                                onClick={handleSoapsClick}  
                                                 type="button" 
-                                                className="btn btn btn-success">Shop Soap</button>
+                                                className="btn btn btn-success"
+                                            >
+                                                Shop Soap
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +144,7 @@ function HomePage() {
                                 <img className="card-img-top" 
                                     data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
                                     alt="Jewelry Thumbnail" 
-                                    src={oil}
+                                    src={jewelry}
                                     data-holder-rendered="true"
                                 />
                                 <div className="card-body">
@@ -111,8 +152,12 @@ function HomePage() {
                                     <div className="d-flex align-items-center shop-button">
                                         <div className="btn-group">
                                             <button 
+                                                onClick={handleJewelryClick}
                                                 type="button" 
-                                                className="btn btn btn-success">Shop Jewelry</button>
+                                                className="btn btn btn-success"
+                                            >
+                                                Shop Jewelry
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

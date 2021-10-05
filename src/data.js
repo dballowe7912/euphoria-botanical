@@ -830,9 +830,504 @@ const goatsMilk4oz = [
     },
 ];
 
-
+const crystalsAndStones = [
+    {
+        name: "Blue Goldstone Pendant (India)",
+        price: 12.50
+    },
+    {
+        name: "Brazilian Amethyst Shards",
+        price: 2.50
+    },
+    {
+        name: "Brazilian Citrine Mini Cluster",
+        price: 7.00
+    },
+    {
+        name: "Brazilian Pink Agate Geode",
+        price: 15.99
+    },
+    {
+        name: "Carnelian - tumbled",
+        price: 1.11
+    },
+    {
+        name: "Chalcopyrite - Raw",
+        price: 4.50
+    },
+    {
+        name: "Chert Sedimentary Rock",
+        price: 3.00
+    },
+    {
+        name: "Chrysocolla Pendant (India)",
+        price: 19.99
+    },
+    {
+        name: "Raw Chrysocalla (Mexico)",
+        price: 65.00
+    },
+    {
+        name: "Clear Crystal Quartz Wand",
+        price: 90.00
+    },
+    {
+        name: "Coral",
+        price: 6.00 
+    },
+    {
+        name: "Crystal Geodes (small)",
+        price: 2.50
+    },
+    {
+        name: "Diamond cut Amethyst Pendant",
+        price: 27.00
+    },
+    {
+        name: "Dragons Blood Jasper (medium)",
+        price: 3.80
+    },
+    {
+        name: "Dyed Magnesite",
+        price: 4.20
+    },
+    {
+        name: "Crystal Spoons",
+        price: 7.00
+    },
+    {
+        name: "Tumbled Fluorite",
+        price: 6.00
+    },
+    {
+        name: "Gemstone Pin (Quartz)",
+        price: 9.99
+    },
+    {
+        name: "Gemstone Pin (Labradorite)",
+        price: 12.00
+    },
+    {
+        name: "Gemstone Pin (random stones)",
+        price: 8.00
+    },
+    {
+        name: "Gemstone Magnets",
+        price: 10.00
+    },
+    {
+        name: "Goldstone Scepter",
+        price: 30.00
+    },
+    {
+        name: "Goldstone - tumbled",
+        price: 4.00
+    },
+    {
+        name: "Green Amozonite (Madagascar)",
+        price: 4.20
+    },
+    {
+        name: "Green Aventurine tumbled stone",
+        price: 7.50
+    },
+    {
+        name: "Kambaba Jasper",
+        price: 4.20
+    },
+    {
+        name: "Kyanite Shard",
+        price: 2.50
+    },
+    {
+        name: "African Jade Lental Beads",
+        price: 1.50
+    },
+    {
+        name: "Agate Slice Pendants",
+        price: 3.40
+    },
+    {
+        name: "Amber",
+        price: 2.50
+    },
+    {
+        name: "Amber Nugget Necklace",
+        price: 40.00
+    },
+    {
+        name: "Amethyst Drop Pendant",
+        price: 7.00
+    },
+    {
+        name: "Amethyst Pendant",
+        price: 5.99
+    },
+    {
+        name: "Amethyst Pendulum (India)",
+        price: 15.00
+    },
+    {
+        name: "Small Raw Purple Amethyst",
+        price: 2.50
+    },
+    {
+        name: "Medium Raw Purple Amethyst",
+        price: 7.00
+    },
+    {
+        name: "Apache Tear Obsidian (small)",
+        price: 1.00
+    },
+    {
+        name: "Apache Tear Obsidian (large)",
+        price: 2.00
+    },
+    {
+        name: "Aquamarine (India)",
+        price: 4.00
+    },
+    {
+        name: "Arrowhead Stone Pendant (India)",
+        price: 12.50
+    },
+    {
+        name: "Arrowhead (small)",
+        price: 5.00
+    },
+    {
+        name: "Arrowhead (medium)",
+        price: 10.00
+    },
+    {
+        name: "Arrowhead (large)",
+        price: 15.00
+    },
+    {
+        name: "Assorted Mixed Tumbled Stones",
+        price: 2.50
+    },
+    {
+        name: "Aventurine Worrystone (India)",
+        price: 8.30
+    },
+    {
+        name: "Bismuth",
+        price: 4.00
+    },
+    {
+        name: "Black Lip Mother of Pearl Shell",
+        price: 7.50
+    },
+    {
+        name: "Tumbled Black Obsidian (Mexico)",
+        price: 5.55
+    },
+    {
+        name: "Black Tourmaline Raw",
+        price: 1.00
+    },
+    {
+        name: "Tumbled Bloodstone",
+        price: 2.00
+    },
+    {
+        name: "Bloodstone Worrystone",
+        price: 20.00
+    },
+    {
+        name: "Blue Agate Slice",
+        price: 5.75
+    },
+    {
+        name: "Blue Amazonite (Brazil)",
+        price: 2.22
+    },
+    {
+        name: "Rough cut Blue Apatite",
+        price: 2.50
+    },
+    {
+        name: "Tumbled Jasper (India)",
+        price: 1.10
+    },
+    {
+        name: "Tumbled Kyanite",
+        price: 16.00
+    },
+    {
+        name: "Tumbled Lapis Lazuli",
+        price: 2.60
+    },
+    {
+        name: "Tumbled Ocean Jasper",
+        price: 1.00
+    },
+    {
+        name: "Tumbled Prehnite (India)",
+        price: 2.00
+    },
+    {
+        name: "Tumbled Amethyst",
+        price: 3.99
+    },
+    {
+        name: "Tumbled Rainbow Moonstone",
+        price: 2.50
+    },
+    {
+        name: "Tumbled Shungite",
+        price: 10.50
+    },
+    {
+        name: "Tumbled Smokey Quartz",
+        price: 2.75
+    },
+    {
+        name: "Tumbled Sunstone",
+        price: 8.40
+    },
+    {
+        name: "Tumbled Unakite",
+        price: 1.03
+    },
+    {
+        name: "Zodiac Crystal Sets",
+        price: 39.99
+    },
+    {
+        name: "Happiness Stone Kits",
+        price: 7.50
+    },
+    {
+        name: "Travel Protection Crystal Sets",
+        price: 12.00
+    },
+    {
+        name: "Embrace the Holiday Stone Sets",
+        price: 12.00
+    },
+    {
+        name: "Labradorite Rough Cut",
+        price: 2.50
+    },
+    {
+        name: "Labradorite Tumbled Stone",
+        price: 12.00
+    },
+    {
+        name: "Lapis Lazuli Keychain",
+        price: 6.99
+    },
+    {
+        name: "Polished Lapis Lazuli (small)",
+        price: 5.00
+    },
+    {
+        name: "Polished Lapis Lazuli (medium)",
+        price: 5.25
+    },
+    {
+        name: "Polished Lapis Lazuli (large)",
+        price: 5.40
+    },
+    {
+        name: "Large Brazilian Black Tourmaline",
+        price: 15.00
+    },
+    {
+        name: "Large Brazilian Kyanite Shards",
+        price: 5.55
+    },
+    {
+        name: "Large Raw Rose Quartz",
+        price: 30.00
+    },
+    {
+        name: "Moldavite (Czech Republic) 2.55 grams",
+        price: 120.00
+    },
+    {
+        name: "Moldavite (Czech Republic) 4.01 grams",
+        price: 140.00
+    },
+    {
+        name: "Natural Emerald with Biotite & Schist",
+        price: 55.00
+    },
+    {
+        name: "Tumbled Peridot Chips",
+        price: 0.05
+    },
+    {
+        name: "Pink Agate Slices",
+        price: 5.75
+    },
+    {
+        name: "Polished Agate",
+        price: 3.15
+    },
+    {
+        name: "Polished Brazilian Citrine",
+        price: 0.60
+    },
+    {
+        name: "Polished Fluorite",
+        price: 0.99
+    },
+    {
+        name: "Polished Rainbow Fluorite",
+        price: 6.00
+    },
+    {
+        name: "Polished Shiva Lingam",
+        price: 2.50
+    },
+    {
+        name: "Prehnite Cluster (India)",
+        price: 11.00
+    },
+    {
+        name: "Purple Agate Slice",
+        price: 5.75
+    },
+    {
+        name: "Pyrite Cluster",
+        price: 3.00
+    },
+    {
+        name: "Quartz Thumb Oval Worrystone (India)",
+        price: 10.40
+    },
+    {
+        name: "Quartz Points (medium)",
+        price: 2.50
+    },
+    {
+        name: "Raw Amazonite",
+        price: 6.30
+    },
+    {
+        name: "Raw Apophyllite (India)",
+        price: 1.75
+    },
+    {
+        name: "Raw Calcite",
+        price: 1.00
+    },
+    {
+        name: "Raw Chalcopyrite (Mexico)",
+        price: 1.10
+    },
+    {
+        name: "Raw Crystal Quartz Points (Arkansas)",
+        price: 3.00
+    },
+    {
+        name: "Raw Crystal Quartz Points (Madagascar)",
+        price: 1.00
+    },
+    {
+        name: "Raw Opal",
+        price: 6.00
+    },
+    {
+        name: "Raw Peridot (Arizona)",
+        price: 10.50
+    },
+    {
+        name: "Raw Rainbow Moonstone (India)",
+        price: 6.00
+    },
+    {
+        name: "Raw Black Tourmaline (small)",
+        price: 4.20
+    },
+    {
+        name: "Rhodonite",
+        price: 3.00
+    },
+    {
+        name: "Red Jasper Tumbled Stone",
+        price: 4.99
+    },
+    {
+        name: "Selenite Wand (Morocco)",
+        price: 5.00
+    },
+    {
+        name: "Serpentine Lental Bead",
+        price: 1.50
+    },
+    {
+        name: "Smokey Quartz (small)",
+        price: 2.50,
+        qty: 2
+    },
+    {
+        name: "Sodalite (small)",
+        price: 0.50
+    },
+    {
+        name: "Sodalite (medium)",
+        price: 0.75
+    },
+    {
+        name: "Sodalite (large)",
+        price: 1.00
+    },
+    {
+        name: "Tan Agate Slices",
+        price: 3.75
+    },
+    {
+        name: "Tigers Eye Pendants",
+        price: 9.00
+    },
+    {
+        name: "Tumbled Tigers Eye (small)",
+        price: 3.00
+    },
+    {
+        name: "Tumbled Tigers Eye (medium)",
+        price: 5.00
+    },
+    {
+        name: "Tumbled Tigers Eye (large)",
+        price: 7.00
+    },
+    {
+        name: "Tigers Eye Sphere",
+        price: 20.99
+    },
+    {
+        name: "Tumbled Amazonite (Madagascar)",
+        price: 1.55
+    },
+    {
+        name: "Tumbled Blue Apatite",
+        price: 1.60
+    },
+    {
+        name: "Tumbled Blue Aventurine",
+        price: 0.90
+    },
+    {
+        name: "Tumbled Carnelian",
+        price: 1.50
+    },
+    {
+        name: "Tumbled Chrysoprase",
+        price: 1.50
+    },
+    {
+        name: "Tumbled Hematite",
+        price: 2.60
+    }
+];
 
 export { 
     dryHerbs, bulkTea,spellJarEarrings, spellJarNecklace, crystalSpellNecklace, spiritualMoonchildProducts, 
-    essentialOils10ml, essentialOilsRollons, roomSprays, bodySprays, soaps, goatsMilk3oz, goatsMilk4oz, petiteGoatsMilk
-}
+    essentialOils10ml, essentialOilsRollons, roomSprays, bodySprays, soaps, goatsMilk3oz, goatsMilk4oz, 
+    petiteGoatsMilk, crystalsAndStones
+};

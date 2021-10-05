@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -8,6 +8,11 @@ import { roomSprays } from '../data';
 import { bodySprays } from '../data';
 
 function Sprays() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])                                                                                           
+
     return (
         <div className="sprays-page">
             <div className="custom-font">

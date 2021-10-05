@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -11,6 +11,11 @@ import { spiritualMoonchildProducts } from '../data';
 
 
 function Jewelry() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div className="jewelry-page">
             <div className="custom-font">
