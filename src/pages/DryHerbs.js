@@ -27,6 +27,7 @@ import whiteSage from '../assets/dry-herb-photos/white-sage.jpeg';
 
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import DryHerbCard from '../components/DryHerbCard';
 
 function DryHerbs() {
     
@@ -34,356 +35,72 @@ function DryHerbs() {
         window.scrollTo(0, 0)
     }, [])
 
+
     return (
     <div className="dry-herbs-page">
         <Navbar/>
         <div className="album py-5 bg-light">
             <div className="container">
 
-            <div className="row">
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={akuamma}
-                            data-holder-rendered="true"
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Akuamma / Picralima Nitida</p>                                
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={blueLotus} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Blue Lotus / Nymphaea Caerulea</p>    
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                        alt="Thumbnail [100%x225]" 
-                        src={catsClaw} 
-                        data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Cats Claw / Uncaria Tomentosa</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <div className="row">
+                    <DryHerbCard src={akuamma} herbTitle="Akuamma / Picralima Nitida"/>
+                    <DryHerbCard src={blueLotus} herbTitle="Blue Lotus / Nymphaea Caerulea"/>
+                    <DryHerbCard src={catsClaw} herbTitle="Cats Claw / Uncaria Tomentosa"/>
+                </div> 
 
-            <div className="row">
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={damiana}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Damiana / Turnera Diffusa</p>
-                        </div>
-                    </div>
+                <div className="row">
+                    <DryHerbCard src={damiana} herbTitle="Damiana / Turnera Diffusa"/>
+                    <DryHerbCard src={horneyGoat} herbTitle="Horney Goat Weed / Epimedium Grandiflorum"/>
+                    <DryHerbCard src={kanna} herbTitle="Kanna Shred / Sceletium Tortusom"/>
                 </div>
 
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={horneyGoat}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Horney Goat Weed / Epimedium Grandiflorum</p> 
-                        </div>
-                    </div>
+                <div className="row">
+
+                    <DryHerbCard src={kava} herbTitle="Kava Extract / Piper Methysticum"/>
+                    <DryHerbCard src={dagga} herbTitle="Wild Dagga (Lions Tail) / Leonotis Leonurus"/>
+                    <DryHerbCard src={wormwood} herbTitle="Wormwood / Artemisia"/>
+
                 </div>
 
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={kanna}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Kanna Shred / Sceletium Tortusom</p>                     
-                        </div>
-                    </div>
+                <div className="row">
+
+                    <DryHerbCard src={palo} herbTitle="Palo Azul - Detox Cheese"/>
+                    <DryHerbCard src={whiteWillow} herbTitle="White Willow Bark Powder"/>
+                    <DryHerbCard src={marshmallow} herbTitle="Marshmallow Root Powder / Althaea Officinalis"/>
+
                 </div>
 
-            </div>
+                <div className="row">
 
-            <div className="row">
+                    <DryHerbCard src={dreamHerb} herbTitle="Calea Zacatachichi / Calea Ternifolia"/>
+                    <DryHerbCard src={ilex} herbTitle="Ilex Guayusa"/>
+                    <DryHerbCard src={lavender} herbTitle="Lavendar Petals / Lamianceae Lavendula"/>
 
-            <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={kava} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Kava Extract / Piper Methysticum</p>                                           
-                        </div>
-                    </div>
                 </div>
 
+                <div className="row">
 
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={dagga}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Wild Dagga (Lions Tail) / Leonotis Leonurus</p>
-                        </div>
-                    </div>
+                    <DryHerbCard src={maitake} herbTitle="Maitake Mushroom"/>
+                    <DryHerbCard src={matcha} herbTitle="Matcha Green Tea"/>
+                    <DryHerbCard src={reishi} herbTitle="Reishi Mushroom / Lingzhi"/>
+
+                </div>
+                    
+                <div className="row">
+
+                    <DryHerbCard src={skullCap} herbTitle="Blue Skull Cap Leaf / Scutellaria Laterflora"/>
+                    <DryHerbCard src={tumeric} herbTitle="Tumeric Capsule / Tumeric Powder"/>
+                    <DryHerbCard src={valerian} herbTitle="Valerian / Valeriana Officinalis"/>
+
                 </div>
 
+                <div className='row'>
 
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={wormwood} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Wormwood / Artemisia</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="row">
-
-            <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={palo}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Palo Azul - Detox Cheese</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={whiteWillow} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">White Willow Bark Powder</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={marshmallow}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Marshmallow Root Powder / Althaea Officinalis</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="row">
-
-            <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={dreamHerb}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Calea Zacatachichi / Calea Ternifolia</p>                
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={ilex}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Ilex Guayusa</p> 
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={lavender}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Lavendar Petals / Lamianceae Lavendula</p>      
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div className="row">
-
-            <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={maitake}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Maitake Mushroom</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={matcha}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Matcha Green Tea</p>      
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={reishi} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Reishi Mushroom / Lingzhi</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+                    <DryHerbCard src={whiteSage} herbTitle="White Sage"/>
                 
-            <div className="row">
-
-            <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={skullCap} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Blue Skull Cap Leaf / Scutellaria Laterflora</p> 
-                        </div>
-                    </div>
                 </div>
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={tumeric} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Tumeric Capsule / Tumeric Powder</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={valerian}
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">Valerian / Valeriana Officinalis</p>
-                        </div>
-                    </div>
-                </div>
-
+                 
             </div>
-
-            <div className='row'>
-
-            <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                        <img className="card-img-top card-img-style" 
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-                            alt="Thumbnail [100%x225]" 
-                            src={whiteSage} 
-                            data-holder-rendered="true" 
-                        />
-                        <div className="card-body">
-                            <p className="card-text">White Sage</p>                           
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-                
-            </div> 
         </div>
         <Footer/>
     </div>
