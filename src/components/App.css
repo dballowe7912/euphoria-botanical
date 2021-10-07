@@ -43,8 +43,20 @@ h5 {
   justify-content: center;
 }
 
-img.card-img-top {
+.card-height {
   height: 275px;
+}
+
+/* Dry Herbs Page */
+
+.card-img-style {
+  height: 225px;
+  width: 100%;
+  display: block;
+}
+
+p.card-text {
+  text-align: center;
 }
 
 /* Contact Page */

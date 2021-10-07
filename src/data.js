@@ -2,6 +2,7 @@ const dryHerbs = [
     {
         commonName: "Akuamma",
         scientificName: "Picralima Nitida",
+        imgSrc: './assets/dry-herb-photos/akuamma.jpg',
         pricing: [
             {
                 type: "seed",
@@ -24,6 +25,7 @@ const dryHerbs = [
     {
         commonName: "Blue Lotus",
         scientificName: "Nymphaea Caerulea",
+        imgSrc: '../assets/dry-herb-photos/blue-lotus.jpg',
         pricing: [
             {
                 type: "",
@@ -41,6 +43,7 @@ const dryHerbs = [
     {
         commonName: "Cats Claw",
         scientificName: "Uncaria tomentosa",
+        imgSrc: '../assets/dry-herb-photos/cats-claw.jpeg',
         pricing: [
             {
                 type: "",
@@ -53,6 +56,7 @@ const dryHerbs = [
     {
         commonName: "Damiana",
         scientificName: "Turnera Diffusa",
+        imgSrc: '../assets/dry-herb-photos/damiana.jpeg',
         pricing: [
             {
                 type: "",
@@ -65,6 +69,7 @@ const dryHerbs = [
     {
         commonName: "Horney Goat Weed",
         scientificName: "Epimedium Grandiflorum",
+        imgSrc: '../assets/dry-herb-photos/horney-goat-weed.jpeg',
         pricing: [
             {
                 type: "Powder",
@@ -87,6 +92,7 @@ const dryHerbs = [
     {
         commonName: "Kanna Shred",
         scientificName: "Sceletium tortusom",
+        imgSrc: '../assets/dry-herb-photos/kanna.jpeg',
         pricing: [
             {
                 type: "",
@@ -99,6 +105,7 @@ const dryHerbs = [
     {
         commonName: "Kava Extract",
         scientificName: "Piper methysticum",
+        imgSrc: '../assets/dry-herb-photos/kava.jpeg',
         pricing: [
             {
                 type: "Extract",
@@ -111,6 +118,7 @@ const dryHerbs = [
     {
         commonName: "Wild Dagga Leaf (lions tail)",
         scientificName: "Leonotis Leonurus",
+        imgSrc: '../assets/dry-herb-photos/wild-dagga.jpeg',
         pricing: [
             {
                 type: "Leaf",
@@ -123,6 +131,7 @@ const dryHerbs = [
     {
         commonName: "Wormwood",
         scientificName: "Artemisia",
+        imgSrc: '../assets/dry-herb-photos/wormwood.jpeg',
         pricing: [
             {
                 type: "",
@@ -135,6 +144,7 @@ const dryHerbs = [
     {
         commonName: "Palo Azule - Detox Cleanse",
         scientificName: "",
+        imgSrc: '../assets/dry-herb-photos/palo.jpeg',
         pricing: [
             {
                 type: "Detox Cleanse",
@@ -147,6 +157,7 @@ const dryHerbs = [
     {
         commonName: "White Willow Bark Powder",
         scientificName: "",
+        imgSrc: '../assets/dry-herb-photos/white-willow.jpeg',
         pricing: [
             {
                 type: "Powder",
@@ -159,6 +170,7 @@ const dryHerbs = [
     {
         commonName: "Marshmallow Root Powder",
         scientificName: "Althaea Officinalis",
+        imgSrc: '../assets/dry-herb-photos/marshmallow.jpeg',
         pricing: [
             {
                 type: "Powder",
@@ -171,6 +183,7 @@ const dryHerbs = [
     {
         commonName: "Calea Zacatachichi",
         scientificName: "Calea Ternifolia",
+        imgSrc: '',
         pricing: [
             {
                 type: "",
@@ -182,7 +195,8 @@ const dryHerbs = [
     },
     {
         commonName: "Ilex Guayusa",
-        scientificName: "",
+        scientificName: "../assets/dry-herb-photos/ilex.jpeg",
+        imgSrc: '',
         pricing: [
             {
                 type: "",
@@ -195,6 +209,7 @@ const dryHerbs = [
     {
         commonName: "Lavender Petals",
         scientificName: "Lamiaceae Lavendula",
+        imgSrc: '../assets/dry-herb-photos/lavender.jpeg',
         pricing: [
             {
                 type: "",
@@ -207,6 +222,7 @@ const dryHerbs = [
     {
         commonName: "Maitake Mushroom",
         scientificName: "",
+        imgSrc: '../assets/dry-herb-photos/maitake.jpeg',
         pricing: [
             {
                 type: "",
@@ -219,6 +235,7 @@ const dryHerbs = [
     {
         commonName: "Matcha Green Tea",
         scientificName: "",
+        imgSrc: '../assets/dry-herb-photos/matcha.jpeg',
         pricing: [
             {
                 type: "",
@@ -231,6 +248,7 @@ const dryHerbs = [
     {
         commonName: "Reishi Mushroom",
         scientificName: "Lingzhi",
+        imgSrc: '../assets/dry-herb-photos/reishi.jpeg',
         pricing: [
             {
                 type: "",
@@ -243,6 +261,7 @@ const dryHerbs = [
     {
         commonName: "Blue Skull Cap Leaf",
         scientificName: "Scutellaria Laterflora",
+        imgSrc: '../assets/dry-herb-photos/skull-cap.jpeg',
         pricing: [
             {
                 type: "",
@@ -255,6 +274,7 @@ const dryHerbs = [
     {
         commonName: "Tumeric",
         scientificName: "",
+        imgSrc: '../assets/dry-herb-photos/tumeric.jpeg',
         pricing: [
             {
                 type: "Capsule",
@@ -272,6 +292,7 @@ const dryHerbs = [
     {
         commonName: "Valerian",
         scientificName: "Valerian Officinals",
+        imgSrc: '../assets/dry-herb-photos/valerian.jpeg',
         pricing: [
             {
                 type: "",
@@ -284,6 +305,7 @@ const dryHerbs = [
     {
         commonName: "White Sage",
         scientificName: "",
+        imgSrc: '../assets/dry-herb-photos/white-sage.jpeg',
         pricing: [
             {
                 type: "Bundle",
@@ -1263,7 +1285,7 @@ const crystalsAndStones = [
     {
         name: "Smokey Quartz (small)",
         price: 2.50,
-        qty: 2
+        qty: 2 
     },
     {
         name: "Sodalite (small)",

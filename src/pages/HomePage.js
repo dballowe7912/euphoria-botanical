@@ -9,7 +9,7 @@ import oil from '../assets/homepage/oil.jpg';
 import herbs from '../assets/homepage/herbs.jpg';
 import teawall from '../assets/homepage/tea-wall.jpg';
 import soap from '../assets/homepage/soaps.jpg';
-import jewelry from '../assets/homepage/jewelry.jpg'
+import jewelry from '../assets/homepage/jewelry_edited.jpg'
 
 function HomePage() {
 
@@ -49,7 +49,7 @@ function HomePage() {
                     <div className="row">
                         <div className="col-md-4">
                             <div className="card mb-4 box-shadow">
-                                <img className="card-img-top" 
+                                <img className="card-img-top card-height" 
                                     data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
                                     alt="Essential Oils Thumbnail" 
                                     src={oil}
@@ -70,7 +70,7 @@ function HomePage() {
                         </div>
                         <div className="col-md-4">
                         <div className="card mb-4 box-shadow">
-                            <img className="card-img-top" 
+                            <img className="card-img-top card-height" 
                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
                                 alt="Dry Herbs Thumbnail" 
                                 src={herbs} 
@@ -94,7 +94,7 @@ function HomePage() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 box-shadow">
-                                <img className="card-img-top" 
+                                <img className="card-img-top card-height" 
                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
                                 alt="Bulk Teas Thumbnail" 
                                 src={teawall} 
@@ -121,7 +121,7 @@ function HomePage() {
                     <div className="col-md-2"></div>
                     <div className="col-md-4">
                             <div className="card mb-4 box-shadow">
-                                <img className="card-img-top" 
+                                <img className="card-img-top card-height" 
                                     data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
                                     alt="Handcrafted Soap Thumbnail" 
                                     src={soap}
@@ -146,7 +146,7 @@ function HomePage() {
                         
                         <div className="col-md-4">
                             <div className="card mb-4 box-shadow">
-                                <img className="card-img-top" 
+                                <img className="card-img-top card-height" 
                                     data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
                                     alt="Jewelry Thumbnail" 
                                     src={jewelry}

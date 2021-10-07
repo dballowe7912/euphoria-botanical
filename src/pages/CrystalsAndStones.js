@@ -11,15 +11,17 @@ function CrystalsAndStones() {
         window.scrollTo(0, 0)
     }, []);
 
-    const timesTwo = (arr) => {
-        for ( let i = 0; i < arr.length; i++ ) {
-            if (arr[i].qty) {
-                console.log(arr[i].qty);
-            }
-        }
-    }
+    // Qty of two Code
 
-    timesTwo(crystalsAndStones)
+    // const timesTwo = (arr) => {
+    //     for ( let i = 0; i < arr.length; i++ ) {
+    //         if (arr[i].qty) {
+    //             console.log(arr[i].qty);
+    //         }
+    //     }
+    // }
+
+    // timesTwo(crystalsAndStones)
 
     return (
         <div className="custom-font">
