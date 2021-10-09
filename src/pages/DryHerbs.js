@@ -40,9 +40,10 @@ function DryHerbs() {
     <div className="dry-herbs-page">
         <Navbar/>
         <div className="album bg-light">
-        <h2 className="custom-font text-center page-title">Dry Herbs</h2>
             <div className="container">
-
+            <div className="row">
+                <h1 className="custom-font text-center page-title" style={{maxHeight: '10px', margin: 'auto'}}>Dry Herbs</h1>
+            </div>
                 <div className="row" style={{paddingTop: "0"}}>
                     <DryHerbCard 
                         src={akuamma} 

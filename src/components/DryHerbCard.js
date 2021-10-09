@@ -9,11 +9,14 @@ function DryHerbCard({herbTitle, src, details}) {
     }
 
     return (
-        <div className="card-container col-md-4 clickable-card" onClick={handleClick}>
+        <div 
+            onClick={handleClick}
+            className="card-container col-md-4 clickable-card"
+        >
             <div className={`card__inner ${flipped ? 'isFlipped' : ''}`}>
                 <div className=" card__face card__face--front">
-                    <div className="card mb-4 box-shadow">
-                        <p className="card-text">{herbTitle}</p>
+                    <div className="card">
+                        <p className="card-text custom-font card-title">{herbTitle}</p>
                         <img className="card-img-top card-img-style" 
                             data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
                             alt="Thumbnail [100%x225]" 
@@ -21,12 +24,8 @@ function DryHerbCard({herbTitle, src, details}) {
                             data-holder-rendered="true"
                         />
                         <div className="card-body">
-                            <div className='card-button'>
-                                <button 
-                                    className="btn btn-success"
-                                    onClick={handleClick}
-                                >Details and Pricing</button>                                
-                            </div>
+                        <p className="card-text custom-font card-summary">{details}</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -39,15 +38,7 @@ function DryHerbCard({herbTitle, src, details}) {
                             data-holder-rendered="true"
                         />
                         <div className="card-body">
-                            <p className="card-text">{details}</p>
-                            <div className='card-button'>
-                                <button 
-                                    className="btn btn-success"
-                                    onClick={handleClick}
-                                >
-                                    Back
-                                </button>                                
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
