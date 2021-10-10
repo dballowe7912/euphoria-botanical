@@ -65,6 +65,7 @@ h5 {
 .card {
   width: 90%;
   height: 90%;
+  background-color: inherit;
   border: none;
 }
 
@@ -104,9 +105,11 @@ h5 {
 }
 
 .card__face--back {
-  background-color: var(--light);
   transform: rotateY(180deg);
   box-shadow: 10px 10px 18px 3px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-body {
@@ -123,7 +126,6 @@ h5 {
   width: 100%;
   display: block;
   padding: 5px 5px;
-  border-radius: 18px  0 18px 0;
   margin-top: 10px;
 }
 
@@ -142,6 +144,12 @@ p.card-text {
 .clickable-card:hover {
   text-decoration: none;
   color: #000;
+}
+
+.card-flip-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* Contact Page */
