@@ -8,11 +8,6 @@ function DryHerbCard({herbTitle, src, details, priceData}) {
         setFlipped(!flipped)
     }
 
-    priceData.map((i) => {
-        console.log(i.type, i.size, i.price.toFixed(2))
-    })
-
-
     return (
         <div 
             onClick={handleClick}
@@ -32,7 +27,7 @@ function DryHerbCard({herbTitle, src, details, priceData}) {
                         <div className="card-body">
                             <p className="card-text custom-font card-summary">{details}</p>
                             <span>
-                            <i class="fas fa-arrow-right card-flip-icon"></i>
+                            <i className="fas fa-arrow-right card-flip-icon"></i>
                             </span>
                         </div>
                     </div>

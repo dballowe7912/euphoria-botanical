@@ -1,4 +1,30 @@
+/* Custom Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+.custom-font {
+  font-family: 'Charm', cursive !important;
+}
+
+/* Font Awesome Icons */
+
+.fa {
+  color: #000;
+  padding: 5px;
+}
+
+/* Navbar */
+
+.navbar-brand, .fw-light {
+  font-family: 'Charm', cursive !important;
+  color: #FFF !important;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Full Page Header */
 
 .masthead {
   height: 100vh;
@@ -7,45 +33,39 @@
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-  color: antiquewhite;
+  color: white;
   font-size: 2em;
 }
 
-.lead {
-  font-weight: bold;
-}
-  
-.navbar-brand, .fw-light {
-  font-family: 'Charm', cursive !important;
-  color: antiquewhite !important;
+.header-support-text {
+  font-size: 0.7em;
 }
 
-.nav-link {
-  color: antiquewhite !important;
-  text-decoration: none;
-}
-
-.fa {
-  color: #000;
-  padding: 5px;
-}
-
-.custom-font {
-  font-family: 'Charm', cursive !important;
-}
-
-/*  Homepage */
+/* Carousel */
 
 h5 {
   text-align: center;
 }
 
+
+/*  Homepage */
+
 .shop-button {
   justify-content: center;
+  padding: 10px;
 }
 
-.card-height {
-  height: 275px;
+.homepage-card-container {
+  display: flex;
+  margin: 20px auto 0;
+  width: 400px;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second-row-cards {
+  justify-content: space-evenly;
 }
 
 /* Dry Herbs Page */
@@ -80,6 +100,7 @@ h5 {
 
 .card-body {
   overflow: auto;
+  padding: 5px !important;
 }
 
 .card__inner.isFlipped {
@@ -97,7 +118,6 @@ h5 {
   box-shadow: 10px 10px 18px 3px rgba(0, 0, 0, 0.5);
 }
 
-
 .card__face--front {
   display: flex;
   align-items: center;
@@ -110,10 +130,6 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.card-body {
-  padding: 5px !important;
 }
 
 .card__content {
@@ -175,6 +191,12 @@ p.card-text {
 
 .list-name {
   line-height: 2em;
+}
+
+/* disclaimer-modal-container */
+
+.modal-content {
+  max-height: 100vh;
 }
 
 /* Color Scheme */
