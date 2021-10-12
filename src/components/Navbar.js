@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav 
             className="navbar navbar-expand-lg navbar-light sticky-top" 
-            style={{backgroundColor: '#7AC143'}}
+            style={{backgroundColor: '#FFF'}}
         >
             <Link 
                 className="navbar-brand" 
@@ -40,7 +40,7 @@ export default function Navbar() {
                         </div>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/about" ng-click="isCollapsed = !isCollapsed">About</Link>
+                        <Link className="nav-link" to="/about" ng-click="isCollapsed = !isCollapsed">About us</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/contact">Contact</Link>

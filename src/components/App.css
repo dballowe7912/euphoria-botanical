@@ -15,9 +15,9 @@
 
 /* Navbar */
 
-.navbar-brand, .fw-light {
+.navbar-brand {
   font-family: 'Charm', cursive !important;
-  color: #FFF !important;
+  color: #000;
 }
 
 .nav-link {
@@ -35,6 +35,10 @@
   background-repeat: no-repeat;
   color: white;
   font-size: 2em;
+}
+
+.header-text {
+  color: white;
 }
 
 .header-support-text {
