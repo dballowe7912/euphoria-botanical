@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 function ContactPage() {
     return (
-        <div>
+        <div className="bg-light">
             <Navbar/>
             <div className="container-fluid" style={{maxWidth: "500px", height: "100vh"}}>
                 <h1 className="custom-font text-center contact-title">Contact Us</h1>
@@ -58,9 +58,11 @@ function ContactPage() {
                     </div>
                     <hr/>
                     <div>
+                        <a className="nav-link" style={{color: '#000'}} href="https://g.page/euphoria-botanical?share">
                         <h5>Address: </h5>
                         <div>233 E. Main St</div>
                         <div>Kilgore, TX 75666</div>
+                        </a>
                     </div>
                     <hr/>
                 </div>

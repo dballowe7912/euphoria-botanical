@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <nav 
-            className="navbar navbar-expand-lg navbar-light sticky-top" 
-            style={{backgroundColor: '#FFF'}}
-        >
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top nav-style">
             <Link 
                 className="navbar-brand" 
                 to="/"
