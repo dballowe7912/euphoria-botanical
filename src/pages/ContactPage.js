@@ -8,43 +8,6 @@ function ContactPage() {
             <Navbar/>
             <div className="container-fluid" style={{maxWidth: "500px", height: "100vh"}}>
                 <h1 className="custom-font text-center contact-title">Contact Us</h1>
-                {/* <form 
-                    action="mailto:dballowe7912@gmail.com" 
-                    method="POST" 
-                    encType="multipart/form-data" 
-                    name="EmailForm"
-                >
-                    <div className="form-group">
-                        <input 
-                            type="text" 
-                            className="form-control" 
-                            id="fullName" 
-                            aria-describedby="Enter Name" 
-                            placeholder="Full Name"
-                        />
-                    </div>
-                    <div className="form-group">
-                        <input 
-                            type="email" 
-                            className="form-control" 
-                            id="email" 
-                            aria-describedby="Enter Name" 
-                            placeholder="Email"
-                        />
-                    </div>
-                    <div className="form-group">
-                        <textarea 
-                            className="form-control" 
-                            placeholder="Message"
-                        >
-                        </textarea> 
-                    </div>
-                    <button 
-                        className="btn btn-success"
-                        type="submit"
-                    >Submit
-                    </button>
-                </form> */}
                 <div className="text-center custom-font contact-container">
                     <hr/>
                     <div>
