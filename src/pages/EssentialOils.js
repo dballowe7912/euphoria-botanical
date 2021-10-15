@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar.js';
-import Footer from '../components/Footer.js';
+import Navbar from '../components/Navbar/Navbar.js';
+import Footer from '../components/Footer/Footer.js';
 
 import { renderList } from '../helper.js';
 

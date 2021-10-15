@@ -1,8 +1,13 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import React, { useEffect } from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 function ContactPage() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+    
     return (
         <div className="bg-light">
             <Navbar/>

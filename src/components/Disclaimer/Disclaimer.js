@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './Disclaimer.css';
+
 function Disclaimer() {
 
     const [ showModal, setShowModal ] = useState(true);

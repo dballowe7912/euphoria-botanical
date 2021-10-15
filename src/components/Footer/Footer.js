@@ -1,16 +1,18 @@
 import React from 'react';
 
+import './Footer.css';
+
 function Footer() {
     return (
         <footer>
-            <div className="row row-col-4 py-5 my-5  border-top">
+            <div className="row row-col-4 py-5 my-5 border-top">
                 <div className="col"></div>
                 <div className="col"></div>
                 <div className="col footer-sitemap-column">
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2">Home</li>
                         <li className="nav-item mb-2">Contact</li>
-                        <li className="nav-item mb-2">Our Story</li>
+                        <li className="nav-item mb-2">About Us</li>
                     </ul>
                 </div>
                 <div className="col footer-sitemap-column">

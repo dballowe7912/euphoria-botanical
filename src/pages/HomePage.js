@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Carousel from '../components/Carousel';
+import Navbar from '../components/Navbar/Navbar';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
+import Carousel from '../components/Carousel/Carousel';
 
 import oil from '../assets/homepage/oil.jpg';
 import herbs from '../assets/homepage/herbs.jpg';
 import teawall from '../assets/homepage/tea-wall.jpg';
 import soap from '../assets/homepage/soaps.jpg';
 import jewelry from '../assets/homepage/jewelry_edited.jpg'
-import HomePageCard from '../components/HomePageCard';
+import HomePageCard from '../components/HomePageCard/HomePageCard';
 
 function HomePage() {
 

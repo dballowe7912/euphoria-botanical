@@ -8,16 +8,17 @@ import {
 import './App.css';
 
 // Pages
-import HomePage from '../pages/HomePage';
-import AboutPage from '../pages/AboutPage';
-import ContactPage from '../pages/ContactPage';
-import DryHerbs from '../pages/DryHerbs';
-import BulkTea from '../pages/BulkTea';
-import EssentialOils from '../pages/EssentialOils';
-import Soaps from '../pages/Soaps';
-import Jewelry from '../pages/Jewelry';
-import Sprays from '../pages/Sprays';
-import CrystalsAndStones from '../pages/CrystalsAndStones';
+import HomePage from '../../pages/HomePage';
+import AboutPage from '../../pages/AboutPage';
+import ContactPage from '../../pages/ContactPage';
+import DryHerbs from '../../pages/DryHerbs';
+import BulkTea from '../../pages/BulkTea';
+import EssentialOils from '../../pages/EssentialOils';
+import Soaps from '../../pages/Soaps';
+import Jewelry from '../../pages/Jewelry';
+import Sprays from '../../pages/Sprays';
+import CrystalsAndStones from '../../pages/CrystalsAndStones';
+import SkateShopPage from '../../pages/SkateShopPage';
 
 
 const App = () => {
@@ -25,6 +26,9 @@ const App = () => {
         <div>
             <Router>
                 <Switch>
+                    <Route path="/skateboard-shop">
+                        <SkateShopPage/>
+                    </Route>
                     <Route path="/crystals-and-stones">
                         <CrystalsAndStones/>
                     </Route>

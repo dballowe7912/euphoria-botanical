@@ -1,0 +1,50 @@
+/* Custom Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Source+Sans+Pro&display=swap');
+
+/* font-family: 'McLaren', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Charm', cursive; */
+
+.custom-font {
+  font-family: 'McLaren', cursive;
+}
+
+/* Dry Herbs Page */
+
+.page-title {
+  padding-top: 1em;
+  max-height: 10px;
+  margin: auto;
+}
+
+
+
+/* Contact Page */
+
+.contact-title {
+  margin: 1em 0;
+}
+
+/* About Page */
+
+.about-main-container {
+  text-align: center;
+  font-family: 'Charm', cursive !important;
+  margin: 1.5em 1em;
+  font-size: 1.5em;
+}
+
+/* List Helper Fuction CSS */
+
+.list-title {
+  margin: 1em 0;
+}
+
+.list-name {
+  line-height: 2em;
+}
+
+/* Color Scheme */
+/* #7AC143 */

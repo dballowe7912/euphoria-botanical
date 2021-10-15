@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './Navbar.css';
+
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light sticky-top nav-style">
@@ -34,6 +36,7 @@ export default function Navbar() {
                             <Link className="dropdown-item" to="/jewelry">Jewelry</Link>
                             <Link className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
                             <Link className="dropdown-item" to="/crystals-and-stones">Crystals and Stones</Link>   
+                            <Link className="dropdown-item" to="/skateboard-shop">Skateboards and Accessories</Link>   
                         </div>
                     </li>
                     <li className="nav-item">

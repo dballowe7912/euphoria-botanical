@@ -1349,8 +1349,218 @@ const crystalsAndStones = [
     }
 ];
 
+const decks = [
+    {
+        name: "7.75 Blank Natural",
+        price: 39.99
+    },
+    {
+        name: "7.75 DGK - Rainbow Drip Deck",
+        price: 79.99
+    },
+    {
+        name: "8.0 Alien Workshop - Visitor Deck",
+        price: 72.00
+    },
+    {
+        name: "8.0 Flip Skateboards - Camo Combat Deck",
+        price: 69.99
+    },
+    {
+        name: "8.0 Foundation Skateboards - Red Logo Deck",
+        price: 49.50
+    },
+    {
+        name: "8.0 SK8MAFIA - Rasta Deck",
+        price: 68.00
+    },
+    {
+        name: "8.0 Techne - Black Vulture Deck",
+        price: 72.00
+    },
+    {
+        name: "8.0 Anti-Hero Skateboards - Eagle Deck",
+        price: 56.00
+    },
+    {
+        name: "8.25 Alien Workshop - Orange Spectrum Deck",
+        price: 72.00
+    },
+    {
+        name: "8.25 Powell Peralta - Skull & Sword Deck",
+        price: 59.99
+    },
+    {
+        name: "8.25 Techne - Horned Owl Deck",
+        price: 72.00
+    },
+    {
+        name: "8.50 Element - Seal Forest Deck",
+        price: 64.99
+    },
+    {
+        name: "7.75 / 8.0 / 8.5 Euphoria Skate Shop Deck",
+        price: 64.99,
+    }  
+];
+
+const completeBoards = [
+    {
+        name: "7.75 Primitive - Burgandy Butterfly Complete",
+        price: 99.99
+    },
+    {
+        name: "8.0 Alien Workshop - Navy Spectrum Complete",
+        price: 99.99
+    },
+    {
+        name: "8.0 Powell Peralta - Vallely Elephant Complete",
+        price: 99.99
+    },
+    {
+        name: "8.0 Santa Cruz - Classic Dot Complete",
+        price: 105.00
+    },
+    {
+        name: "8.0 Santa Cruz - Screaming Hand Complete",
+        price: 105.00
+    },
+    {
+        name: "8.25 Baker - Brand Logo Complete",
+        price: 120.00
+    },
+    {
+        name: "Euphoria Skate Shop Complete",
+        price: 90.00
+    },
+    {
+        name: "Mini Complete",
+        price: 74.99
+    },
+    {
+        name: "Punked Kicktail Longboard Complete",
+        price: 129.99
+    },
+    {
+        name: "Swell 22 inch (pink and gold) Complete",
+        price: 79.99
+    },
+    {
+        name: "Houston Skateboard Complete",
+        price: 129.99
+    },
+];
+
+const trucks = [
+    {
+        name: "5.5/6.0 Grindking Disruptor Raw Trucks",
+        price: 47.99
+    },
+    {
+        name: "5.5/6.0 Grindking Sparking Trucks",
+        price: 69.99
+    },
+    {
+        name: "5.25 Litezpeed Trucks",
+        price: 29.99
+    },
+    {
+        name: "180 mm Luxe Lite Trucks (longboard)(blue/green)",
+        price: 69.99
+    }
+];
+
+const wheels = [
+    {
+        name: "50 mm White Blank Wheel Set",
+        price: 19.99
+    },
+    {
+        name: "51 mm Wheel Set (White & Blue)",
+        price: 19.99
+    },
+    {
+        name: "52 mm Black Wheel Set / White Wheel set",
+        price: 19.99
+    },
+    {
+        name: "52 mm Wheel Set (Blue / Green / Orange / Pink / Red / Yellow)",
+        price: 24.99
+    },
+    {
+        name: "52 mm Checkered Wheel Set",
+        price: 29.99
+    },
+    {
+        name: "53 mm Wheel Set ( Black / White )",
+        price: 19.99
+    },
+    {
+        name: "54 mm Wheel Set ( Black / White )",
+        price: 19.99
+    },
+    {
+        name: "53 mm Gel Wheel Set ( Green / Blue )",
+        price: 29.99
+    },
+    {
+        name: "H Formula Wheel Set",
+        price: 35.00
+    },
+    {
+        name: "Longboard Wheel Set ( Purple / Lime Green )",
+        price: 34.99
+    }
+];
+
+const bearings = [
+    {
+        name: "ABEC 3 bearing set",
+        price: 6.99
+    },
+    {
+        name: "ABEC 7 bearing set",
+        price: 8.99
+    },
+    {
+        name: "Litezpeed ABEC 3 bearing set ( Black / Blue / Green / Red / White )",
+        price: 9.99
+    },
+    {
+        name: "LiteZpeed ABEC 7 bearing set ( Black / Green / Red / White )",
+        price: 12.99
+    },
+    {
+        name: "Bones Big Ball Reds bearing set",
+        price: 24.99
+    },
+    {
+        name: "Huh bearing set ABEC 7",
+        price: 20.00
+    }
+];
+
+const hardware = [
+    {
+        name: "Riser Pads",
+        price: 3.99
+    },
+    {
+        name: "1.25 inch",
+        price: 3.99
+    },
+    {
+        name: "1.5 inch",
+        price: 3.99
+    },
+    {
+        name: "1 inch",
+        price: 3.99
+    }
+];
+
 export { 
     dryHerbs, bulkTea,spellJarEarrings, spellJarNecklace, crystalSpellNecklace, spiritualMoonchildProducts, 
     essentialOils10ml, essentialOilsRollons, roomSprays, bodySprays, soaps, goatsMilk3oz, goatsMilk4oz, 
-    petiteGoatsMilk, crystalsAndStones
+    petiteGoatsMilk, crystalsAndStones, decks, completeBoards, wheels, bearings, hardware, trucks
 };

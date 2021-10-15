@@ -25,9 +25,9 @@ import tumeric from '../assets/dry-herb-photos/tumeric.jpeg';
 import valerian from '../assets/dry-herb-photos/valerian.jpeg';
 import whiteSage from '../assets/dry-herb-photos/white-sage.jpeg';
 
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import DryHerbCard from '../components/DryHerbCard';
+import Footer from '../components/Footer/Footer';
+import Navbar from '../components/Navbar/Navbar';
+import DryHerbCard from '../components/DryHerbCard/DryHerbCard.js';
 
 function DryHerbs() {
     
