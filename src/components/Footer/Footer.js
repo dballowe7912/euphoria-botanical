@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Footer.css';
 
@@ -10,21 +11,44 @@ function Footer() {
                 <div className="col"></div>
                 <div className="col footer-sitemap-column">
                     <ul className="nav flex-column">
-                        <li className="nav-item mb-2">Home</li>
-                        <li className="nav-item mb-2">Contact</li>
-                        <li className="nav-item mb-2">About Us</li>
+                        <li className="nav-item mb-2">
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/contact">Contact</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/about">About Us</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="col footer-sitemap-column">
                     <h5>Products</h5>
                     <ul className="nav flex-column">
-                        <li className="nav-item mb-2">Dry Herbs</li>
-                        <li className="nav-item mb-2">Bulk Teas</li>
-                        <li className="nav-item mb-2">Essential Oils</li>
-                        <li className="nav-item mb-2">Handmade Soaps</li>
-                        <li className="nav-item mb-2">Jewelry</li>
-                        <li className="nav-item mb-2">Body and Room Sprays</li>
-                        <li className="nav-item mb-2">Crystals and Stones</li>
+                        <li className="nav-item mb-2">
+                            <Link to="/herbs">Dry Herbs</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/teas">Bulk Teas</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/oils">Essential Oils</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/soaps">Handmade Soaps</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/jewelry">Jewelry</Link>
+                            </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/sprays">Body and Room Sprays</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/crystals-and-stones">Crystals and Stones</Link>
+                        </li>
+                        <li className="nav-item mb-2">
+                            <Link to="/skateboard-shop">Skate Boards and Accessories</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

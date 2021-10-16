@@ -10,6 +10,7 @@ import teawall from '../assets/homepage/tea-wall.jpg';
 import soap from '../assets/homepage/soaps.jpg';
 import jewelry from '../assets/homepage/jewelry_edited.jpg'
 import HomePageCard from '../components/HomePageCard/HomePageCard';
+import skateboards from '../assets/homepage/skateboards.jpg'
 
 function HomePage() {
 
@@ -22,14 +23,14 @@ function HomePage() {
         <div className="home-page">
             <Navbar/>
             <Header/>
-            <div className="album py-2 bg-light">
+            <div className="album py-2">
                 <div className="container">
 
                     <div className="row">
 
                         {/* Oil Card */}
                         <HomePageCard 
-                            altPhoto="Essential Oil Thumbnail Photo"
+                            altPhoto="Essential Oil Thumbnail"
                             shopBtn="Essential Oils"
                             photoSrc={oil}
                             pageLink="/oils"
@@ -37,7 +38,7 @@ function HomePage() {
                         
                         {/* Dry Herbs Card */}
                         <HomePageCard 
-                            altPhoto="Dry Herbs Thumbnail Photo" 
+                            altPhoto="Dry Herbs Thumbnail" 
                             shopBtn="Dry Herbs"
                             photoSrc={herbs}
                             pageLink="/herbs"
@@ -45,7 +46,7 @@ function HomePage() {
 
                         {/* Bulk Tea Card */}
                         <HomePageCard
-                            altPhoto="Bulk Tea Thumbnail Photo" 
+                            altPhoto="Bulk Tea Thumbnail" 
                             shopBtn="Bulk Tea"
                             photoSrc={teawall}
                             pageLink="/teas"
@@ -57,7 +58,7 @@ function HomePage() {
 
                         {/* Hand Crafted Soaps Card */}
                         <HomePageCard
-                            altPhoto="Hand Crafted Soaps Thumbnail Photo" 
+                            altPhoto="Hand Crafted Soaps Thumbnail" 
                             shopBtn="Hand Crafted Soaps"
                             photoSrc={soap}
                             pageLink="/soaps"
@@ -65,10 +66,18 @@ function HomePage() {
 
                         {/* Jewelry Card */}
                         <HomePageCard
-                            altPhoto="Jewelry Thumbnail Photo" 
+                            altPhoto="Jewelry Thumbnail" 
                             shopBtn="Jewelry"
                             photoSrc={jewelry}
                             pageLink="/jewelry"
+                        />
+
+                        {/* Skate Card */}
+                        <HomePageCard 
+                        altPhoto="Skateboard and Accessories Thumbnail"
+                        shopBtn="Skateboard Shop"
+                        photoSrc={skateboards}
+                        pageLink="/skateboard-shop"
                         />
 
                     </div>
