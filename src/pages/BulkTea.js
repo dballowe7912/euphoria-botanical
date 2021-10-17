@@ -6,7 +6,7 @@ import { renderList } from '../helper.js';
 import { bulkTea } from '../data.js';
 
 
-function BulkTea() {
+const BulkTea = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)

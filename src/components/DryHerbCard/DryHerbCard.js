@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './DryHerbCard.css';
 
-function DryHerbCard({herbTitle, src, details, priceData}) {
+const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
 
     const [flipped, setFlipped] = useState(false);
 

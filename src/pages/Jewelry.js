@@ -10,7 +10,7 @@ import { crystalSpellNecklace } from '../data';
 import { spiritualMoonchildProducts } from '../data';
 
 
-function Jewelry() {
+const Jewelry = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)

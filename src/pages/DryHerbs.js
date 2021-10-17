@@ -29,13 +29,11 @@ import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 import DryHerbCard from '../components/DryHerbCard/DryHerbCard.js';
 
-function DryHerbs() {
+const DryHerbs = () => {
     
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-
-    // console.log(dryHerbs[0].pricing.map((i) => console.log(i.type, i.size, i.price)))
 
     return (
     <div className="dry-herbs-page">

@@ -3,7 +3,7 @@ import { useHistory } from 'react-router';
 
 import './HomePageCard.css';
 
-function HomePageCard({ altPhoto, photoSrc, shopBtn, pageLink }) {
+const HomePageCard = ({ altPhoto, photoSrc, shopBtn, pageLink }) => {
 
     let history = useHistory();
 

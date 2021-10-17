@@ -7,7 +7,7 @@ import { renderList } from '../helper';
 import { roomSprays } from '../data';
 import { bodySprays } from '../data';
 
-function Sprays() {
+const Sprays = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)

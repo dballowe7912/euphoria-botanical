@@ -10,7 +10,7 @@ import { goatsMilk4oz } from '../data';
 import { petiteGoatsMilk } from '../data';
 
 
-function Soaps() {
+const Soaps = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)

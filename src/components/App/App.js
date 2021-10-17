@@ -1,6 +1,5 @@
 import React from 'react';
 import { 
-    BrowserRouter as Router, 
     Switch, Route 
 } from 'react-router-dom';
 
@@ -21,48 +20,22 @@ import CrystalsAndStones from '../../pages/CrystalsAndStones';
 import SkateShopPage from '../../pages/SkateShopPage';
 
 
-const App = () => {
-    return (
-        <div>
-            <Router>
-                <Switch>
-                    <Route path="/skateboard-shop">
-                        <SkateShopPage/>
-                    </Route>
-                    <Route path="/crystals-and-stones">
-                        <CrystalsAndStones/>
-                    </Route>
-                    <Route path="/sprays">
-                        <Sprays/>
-                    </Route>
-                    <Route path="/jewelry">
-                        <Jewelry/>
-                    </Route>
-                    <Route path="/soaps">
-                        <Soaps/>
-                    </Route>
-                    <Route path="/oils">
-                        <EssentialOils/>
-                    </Route>
-                    <Route path="/teas">
-                        <BulkTea/>
-                    </Route>
-                    <Route path="/herbs">
-                        <DryHerbs/>
-                    </Route>
-                    <Route path="/about">
-                        <AboutPage/>
-                    </Route>
-                    <Route path="/contact">
-                        <ContactPage/>
-                    </Route>
-                    <Route path="/">
-                        <HomePage/>
-                    </Route>
-                </Switch>
-            </Router>
-        </div>
-    )
-}
+const App = () => (
+    <div>
+        <Switch>
+            <Route path="/skateboard-shop" component={SkateShopPage} />
+            <Route path="/crystals-and-stones" component={CrystalsAndStones} />
+            <Route path="/sprays" component={Sprays} />
+            <Route path="/jewelry" component={Jewelry}/>
+            <Route path="/soaps" component={Soaps} />
+            <Route path="/oils" component={EssentialOils} />
+            <Route path="/teas" component={BulkTea} />
+            <Route path="/herbs" component={DryHerbs} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/contact" component={ContactPage} />
+            <Route exact path="/" component={HomePage} />
+        </Switch>
+    </div>
+)
 
 export default App;

@@ -12,7 +12,7 @@ import jewelry from '../assets/homepage/jewelry_edited.jpg'
 import HomePageCard from '../components/HomePageCard/HomePageCard';
 import skateboards from '../assets/homepage/skateboards.jpg'
 
-function HomePage() {
+const HomePage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -28,7 +28,7 @@ function HomePage() {
 
                     <div className="row">
 
-                        {/* Oil Card */}
+                       
                         <HomePageCard 
                             altPhoto="Essential Oil Thumbnail"
                             shopBtn="Essential Oils"
@@ -36,7 +36,7 @@ function HomePage() {
                             pageLink="/oils"
                         />
                         
-                        {/* Dry Herbs Card */}
+                       
                         <HomePageCard 
                             altPhoto="Dry Herbs Thumbnail" 
                             shopBtn="Dry Herbs"
@@ -44,7 +44,7 @@ function HomePage() {
                             pageLink="/herbs"
                         />
 
-                        {/* Bulk Tea Card */}
+                       
                         <HomePageCard
                             altPhoto="Bulk Tea Thumbnail" 
                             shopBtn="Bulk Tea"
@@ -56,7 +56,7 @@ function HomePage() {
 
                     <div className="row second-row-cards">    
 
-                        {/* Hand Crafted Soaps Card */}
+                       
                         <HomePageCard
                             altPhoto="Hand Crafted Soaps Thumbnail" 
                             shopBtn="Hand Crafted Soaps"
@@ -64,7 +64,7 @@ function HomePage() {
                             pageLink="/soaps"
                         />
 
-                        {/* Jewelry Card */}
+                     
                         <HomePageCard
                             altPhoto="Jewelry Thumbnail" 
                             shopBtn="Jewelry"
@@ -72,7 +72,7 @@ function HomePage() {
                             pageLink="/jewelry"
                         />
 
-                        {/* Skate Card */}
+                 
                         <HomePageCard 
                         altPhoto="Skateboard and Accessories Thumbnail"
                         shopBtn="Skateboard Shop"

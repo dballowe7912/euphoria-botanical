@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer.js';
 import { renderList } from '../helper.js';
 import { decks, completeBoards, trucks, wheels, hardware, bearings } from '../data.js';
 
-function SkateShopPage() {
+const SkateShopPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)

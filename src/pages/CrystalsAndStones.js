@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer';
 import { crystalsAndStones } from '../data';
 import { renderList } from '../helper';
 
-function CrystalsAndStones() {
+const CrystalsAndStones = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -33,7 +33,6 @@ function CrystalsAndStones() {
             <Footer/>
         </div>
     )
-
 }
 
 export default CrystalsAndStones;

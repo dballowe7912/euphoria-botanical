@@ -7,7 +7,7 @@ import { renderList } from '../helper.js';
 import {essentialOils10ml} from '../data.js';
 import {essentialOilsRollons} from '../data.js';
 
-function EssentialOils() {
+const EssentialOils = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)

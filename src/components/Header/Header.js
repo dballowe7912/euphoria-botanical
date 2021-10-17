@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Header.css';
 
-function Header() {    
+const Header = () => {    
 
     const handleClick = () => {
         window.scrollTo(0, 600)
