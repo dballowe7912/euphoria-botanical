@@ -14,6 +14,7 @@ const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
         <div 
             onClick={handleClick}
             className="card-container col-md-4"
+            key={herbTitle}
         >
             <div className={`card__inner ${flipped ? 'isFlipped' : ''}`}>
 

@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer.js';
 
 import { renderList } from '../helper.js';
 import { decks, completeBoards, trucks, wheels, hardware, bearings } from '../data.js';
+import SkateboardFooter from '../components/SkateboardFooter.js/SkateboardFooter.js';
 
 const SkateShopPage = () => {
 
@@ -12,10 +13,10 @@ const SkateShopPage = () => {
     }, [])
 
     return (
-        <div>
+        <div className='custom-font'>
             <Navbar/>
                 <h3 className="text-center list-title border-bottom">Skate Decks</h3>
-                <div style={{wordWrap: "none"}} className="container">
+                <div className="container">
                     {renderList(decks)}  
                 </div>
                 <h3 className="text-center list-title border-bottom">Complete Skateboards</h3>
@@ -39,6 +40,7 @@ const SkateShopPage = () => {
                     {renderList(hardware)}
                 </div>
 
+            <SkateboardFooter/>
             <Footer/>
         </div>
     )

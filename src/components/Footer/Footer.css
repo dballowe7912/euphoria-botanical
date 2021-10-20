@@ -2,8 +2,20 @@
   margin: 0 15px;
 }
 
-a {
-  color: #000
+.skate-logo {
+  max-width: 20%;
+}
+
+.row-one {
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-two {
+  margin-left: 3px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-icon {

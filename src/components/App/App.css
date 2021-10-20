@@ -7,6 +7,11 @@
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Charm', cursive; */
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .custom-font {
   font-family: 'McLaren', cursive;
 }
@@ -28,10 +33,19 @@ font-family: 'Charm', cursive; */
 /* About Page */
 
 .about-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
   text-align: center;
-  font-family: 'Charm', cursive !important;
-  margin: 1.5em 1em;
-  font-size: 1.5em;
+  padding: 1em 0 1em 0;
+}
+
+.about-text {
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 2em;
 }
 
 /* List Helper Fuction CSS */
@@ -42,6 +56,12 @@ font-family: 'Charm', cursive; */
 
 .list-name {
   line-height: 2em;
+}
+
+.list-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* 
