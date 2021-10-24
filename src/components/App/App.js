@@ -18,10 +18,12 @@ import Jewelry from '../../pages/Jewelry';
 import Sprays from '../../pages/Sprays';
 import CrystalsAndStones from '../../pages/CrystalsAndStones';
 import SkateShopPage from '../../pages/SkateShopPage';
+import { itemSearch } from '../../helper';
 
 
-const App = () => (
-    <div>
+const App = () => {
+    return (
+    <div className="app bg-light">
         <Switch>
             <Route path="/skateboard-shop" component={SkateShopPage} />
             <Route path="/crystals-and-stones" component={CrystalsAndStones} />
@@ -36,6 +38,7 @@ const App = () => (
             <Route exact path="/" component={HomePage} />
         </Switch>
     </div>
-)
+    )
+}
 
 export default App;

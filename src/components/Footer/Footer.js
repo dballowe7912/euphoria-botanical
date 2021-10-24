@@ -7,7 +7,7 @@ const Footer = () => (
 
         {/* Footer Index and Sitemap */}
 
-        <div className="row row-col-4 py-3 my-3 border-top">
+        <div className="row row-col-4 py-3 my-3 border-top w-100" style={{ paddingLeft: '10px'}}>
             <div className="col footer-sitemap-column">
                 <ul className="nav flex-column">
                     <li className="nav-item mb-2">

@@ -25,17 +25,14 @@ const HomePage = () => {
             <Header/>
             <div className="album py-2">
                 <div className="container">
-
                     <div className="row">
 
-                       
                         <HomePageCard 
                             altPhoto="Essential Oil Thumbnail"
                             shopBtn="Essential Oils"
                             photoSrc={oil}
                             pageLink="/oils"
                         />
-                        
                        
                         <HomePageCard 
                             altPhoto="Dry Herbs Thumbnail" 
@@ -44,7 +41,6 @@ const HomePage = () => {
                             pageLink="/herbs"
                         />
 
-                       
                         <HomePageCard
                             altPhoto="Bulk Tea Thumbnail" 
                             shopBtn="Bulk Tea"
@@ -53,10 +49,8 @@ const HomePage = () => {
                         />
 
                     </div>
-
                     <div className="row second-row-cards">    
 
-                       
                         <HomePageCard
                             altPhoto="Hand Crafted Soaps Thumbnail" 
                             shopBtn="Hand Crafted Soaps"
@@ -64,7 +58,6 @@ const HomePage = () => {
                             pageLink="/soaps"
                         />
 
-                     
                         <HomePageCard
                             altPhoto="Jewelry Thumbnail" 
                             shopBtn="Jewelry"
@@ -72,7 +65,6 @@ const HomePage = () => {
                             pageLink="/jewelry"
                         />
 
-                 
                         <HomePageCard 
                         altPhoto="Skateboard and Accessories Thumbnail"
                         shopBtn="Skateboard Shop"
