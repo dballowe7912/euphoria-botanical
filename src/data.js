@@ -1406,46 +1406,57 @@ const decks = [
 
 const completeBoards = [
     {
+        id: 1,
         name: "7.75 Primitive - Burgandy Butterfly Complete",
         price: 99.99
     },
     {
+        id: 2,
         name: "8.0 Alien Workshop - Navy Spectrum Complete",
         price: 99.99
     },
     {
+        id: 3,
         name: "8.0 Powell Peralta - Vallely Elephant Complete",
         price: 99.99
     },
     {
+        id: 4,
         name: "8.0 Santa Cruz - Classic Dot Complete",
         price: 105.00
     },
     {
+        id: 5,
         name: "8.0 Santa Cruz - Screaming Hand Complete",
         price: 105.00
     },
     {
+        id: 6,
         name: "8.25 Baker - Brand Logo Complete",
         price: 120.00
     },
     {
+        id: 7,
         name: "Euphoria Skate Shop Complete",
         price: 90.00
     },
     {
+        id: 8,
         name: "Mini Complete",
         price: 74.99
     },
     {
+        id: 9,
         name: "Punked Kicktail Longboard Complete",
         price: 129.99
     },
     {
+        id: 10,
         name: "Swell 22 inch (pink and gold) Complete",
         price: 79.99
     },
     {
+        id: 11,
         name: "Houston Skateboard Complete",
         price: 129.99
     },
