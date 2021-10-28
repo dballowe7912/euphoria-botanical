@@ -13,9 +13,10 @@ const BulkTea = () => {
     }, [])
 
     return (
-        <div className="custom-font">
+        <div className="bulk-tea-page custom-font">
             <Navbar/>
-            <h3 className="text-center list-title">Bulk Tea Pricing per ounce</h3>
+            <h3 className="text-center list-title" >Bulk Tea</h3>
+            <h5 className="text-center border-bottom">pricing per ounce</h5>
             <div className="container">
                     {renderList(bulkTea)}
             </div>

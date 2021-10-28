@@ -20,19 +20,19 @@ const Soaps = () => {
         <div className="soaps-page">
             <div className="custom-font">
                 <Navbar/>
-                <h3 className="text-center list-title">Soaps</h3>
+                <h3 className="text-center list-title border-bottom">Soaps</h3>
                 <div className="container">
                     {renderList(soaps)}
                 </div>
-                <h3 className="text-center list-title">Goats Milk (3 oz)</h3>
+                <h3 className="text-center list-title border-bottom">Goats Milk (3 oz)</h3>
                 <div className="container">
                     {renderList(goatsMilk3oz)}
                 </div>
-                <h3 className="text-center list-title">Goats Milk (4 oz)</h3>
+                <h3 className="text-center list-title border-bottom">Goats Milk (4 oz)</h3>
                 <div className="container">
                     {renderList(goatsMilk4oz)}
                 </div>
-                <h3 className="text-center list-title">Petite Goats Milk</h3>
+                <h3 className="text-center list-title border-bottom">Petite Goats Milk</h3>
                 <div className="container">
                     {renderList(petiteGoatsMilk)}
                 </div>

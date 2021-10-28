@@ -17,11 +17,11 @@ const EssentialOils = () => {
         <div className="essential-oils-page">
             <div className="custom-font">
                 <Navbar/>
-                <h3 className="text-center list-title">Essential Oils (10ml)</h3>
+                <h3 className="text-center list-title border-bottom">Essential Oils (10ml)</h3>
                 <div className="container">
                     {renderList(essentialOils10ml)}  
                 </div>
-                <h3 className="text-center list-title">Essential Oils (Roll-on)</h3>
+                <h3 className="text-center list-title border-bottom">Essential Oils (Roll-on)</h3>
                 <div className="container">
                     {renderList(essentialOilsRollons)}
                 </div>

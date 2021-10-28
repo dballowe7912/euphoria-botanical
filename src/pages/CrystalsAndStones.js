@@ -24,9 +24,9 @@ const CrystalsAndStones = () => {
     // timesTwo(crystalsAndStones)
 
     return (
-        <div className="custom-font">
+        <div className="custom-font crystals-and-stones-page">
             <Navbar/>
-            <h3 className="text-center list-title">Crystals And Stones</h3>
+            <h3 className="text-center list-title border-bottom">Crystals And Stones</h3>
             <div className="container">
                     {renderList(crystalsAndStones)}
             </div>

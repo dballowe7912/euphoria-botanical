@@ -17,11 +17,11 @@ const Sprays = () => {
         <div className="sprays-page">
             <div className="custom-font">
                 <Navbar/>
-                <h3 className="text-center list-title">Room Sprays</h3>
+                <h3 className="text-center list-title border-bottom">Room Sprays</h3>
                 <div className="container">
                     {renderList(roomSprays)}
                 </div>
-                <h3 className="text-center list-title">Body Sprays</h3>
+                <h3 className="text-center list-title border-bottom">Body Sprays</h3>
                 <div className="container">
                     {renderList(bodySprays)}
                 </div>

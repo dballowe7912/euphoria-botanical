@@ -20,19 +20,19 @@ const Jewelry = () => {
         <div className="jewelry-page">
             <div className="custom-font">
                 <Navbar/>
-                <h3 className="text-center list-title">Spell Jar Earings</h3>
+                <h3 className="text-center list-title border-bottom">Spell Jar Earings</h3>
                 <div className="container">
                     {renderList(spellJarEarrings)}
                 </div>
-                <h3 className="text-center list-title">Spell Jar Necklace</h3>
+                <h3 className="text-center list-title border-bottom ">Spell Jar Necklace</h3>
                 <div className="container">
                     {renderList(spellJarNecklace)}
                 </div>
-                <h3 className="text-center list-title">Crystal Spell Necklace</h3>
+                <h3 className="text-center list-title border-bottom">Crystal Spell Necklace</h3>
                 <div className="container">
                     {renderList(crystalSpellNecklace)}
                 </div>
-                <h3 className="text-center list-title">Spiritual Moonchild Products</h3>
+                <h3 className="text-center list-title border-bottom">Spiritual Moonchild Products</h3>
                 <div className="container">
                     {renderList(spiritualMoonchildProducts)}
                 </div>

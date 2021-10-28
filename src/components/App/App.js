@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 
 // CSS
-import './App.css';
+import './App.scss';
 
 // Pages
 import HomePage from '../../pages/HomePage';
