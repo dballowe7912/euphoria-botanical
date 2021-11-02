@@ -18,8 +18,7 @@ import Jewelry from '../../pages/Jewelry';
 import Sprays from '../../pages/Sprays';
 import CrystalsAndStones from '../../pages/CrystalsAndStones';
 import SkateShopPage from '../../pages/SkateShopPage';
-import { itemSearch } from '../../helper';
-
+import SignInAndSignUpPage from '../../pages/sign-in-and-sign-up-page/SignInAndSignUpPage';
 
 const App = () => {
     return (
@@ -36,6 +35,7 @@ const App = () => {
             <Route path="/about" component={AboutPage} />
             <Route path="/contact" component={ContactPage} />
             <Route exact path="/" component={HomePage} />
+            <Route path='/signin' component={SignInAndSignUpPage} />
         </Switch>
     </div>
     )
