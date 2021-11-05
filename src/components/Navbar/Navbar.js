@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { auth } from '../../firebase/firebase.utils';
 
-import './Navbar.css';
+import './Navbar.scss';
 
-const Navbar = () => (
+const Navbar = ({ currentUser }) => {
+
+    const [ handleToggleClick, setHandleToggleClick ] = useState(false)
+
+    return (
     <nav className="navbar navbar-expand-lg navbar-light sticky-top nav-style">
         <Link 
             className="navbar-brand" 
@@ -24,10 +29,13 @@ const Navbar = () => (
             <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div 
+            className={`collapse navbar-collapse ${handleToggleClick ? ' show' : ''}}`} 
+            id="navbarSupportedContent"
+        >
         
             <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
+                <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
                     <Link className="nav-link" to="/">Home</Link>
                 </li>
 
@@ -37,25 +45,35 @@ const Navbar = () => (
                         Products
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link className="dropdown-item" to="/herbs">Dry Herbs</Link>
-                        <Link className="dropdown-item" to="/teas">Bulk Teas</Link>
-                        <Link className="dropdown-item" to="/oils">Essential Oils</Link>
-                        <Link className="dropdown-item" to="/soaps">Soaps</Link>
-                        <Link className="dropdown-item" to="/jewelry">Jewelry</Link>
-                        <Link className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
-                        <Link className="dropdown-item" to="/crystals-and-stones">Crystals and Stones</Link>   
-                        <Link className="dropdown-item" to="/skateboard-shop">Skateboards and Accessories</Link>   
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/herbs">Dry Herbs</Link>
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/teas">Bulk Teas</Link>
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/oils">Essential Oils</Link>
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/soaps">Soaps</Link>
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/jewelry">Jewelry</Link>
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/crystals-and-stones">Crystals and Stones</Link>   
+                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/skateboard-shop">Skateboards and Accessories</Link>   
                     </div>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
                     <Link className="nav-link" to="/about" ng-click="isCollapsed = !isCollapsed">About us</Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
                     <Link className="nav-link" to="/contact">Contact</Link>
+                </li>
+                <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
+                    {/* <Link className="nav-link" to="/signin">Sign In</Link> */}
+                    {
+                        currentUser ? 
+                        <div className='nav-link sign-out' onClick={() => auth.signOut()}>Sign out</div>
+                        :
+                        <Link className='nav-link' to='/signin'>Sign in</Link>
+                    }
                 </li>
             </ul>
         </div>
     </nav>
-)
+    )
+}
 
 export default Navbar;

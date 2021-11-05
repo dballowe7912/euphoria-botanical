@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 
 const ContactPage = () => {
@@ -10,7 +9,6 @@ const ContactPage = () => {
     
     return (
         <div className="bg-light contact-page">
-            <Navbar/>
             <div className="container-fluid" style={{maxWidth: "500px", height: "100vh"}}>
                 <h1 className="custom-font text-center contact-title">Contact Us</h1>
                 <div className="text-center custom-font contact-container">

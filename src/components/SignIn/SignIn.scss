@@ -7,4 +7,18 @@
     .title {
         margin: 10px 0;
     }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input.btn-google {
+        background-color: #4285f4;
+        color: white;
+
+            &:hover {
+            background-color: #357ae8;
+        }
+    }
 }

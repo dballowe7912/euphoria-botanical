@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer.js';
 
 const AboutPage = () => {
@@ -12,7 +11,6 @@ const AboutPage = () => {
         <div 
             className="about-page custom-font bg-light" 
         >
-            <Navbar/>
             <div className=" about-main-container container" role="main">
                 <h1 className="about-title">Euphoria Botanical</h1>
                 <p className="about-text">Euphoria Botanical is an Herb Shop located downtown in Kilgore, Texas. We have a large selection of CBD flowers, oils, 

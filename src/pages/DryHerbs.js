@@ -26,7 +26,6 @@ import valerian from '../assets/dry-herb-photos/valerian.jpeg';
 import whiteSage from '../assets/dry-herb-photos/white-sage.jpeg';
 
 import Footer from '../components/Footer/Footer';
-import Navbar from '../components/Navbar/Navbar';
 import DryHerbCard from '../components/DryHerbCard/DryHerbCard.js';
 
 const DryHerbs = (props) => {
@@ -35,11 +34,8 @@ const DryHerbs = (props) => {
         window.scrollTo(0, 0)
     }, [])
 
-    console.log(props)
-
     return (
     <div className="dry-herbs-page">
-        <Navbar/>
         <div className="album bg-light">
             <div className="container">
             <div className="row">

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 
 import { renderList } from '../helper';
@@ -19,7 +18,6 @@ const Soaps = () => {
     return (
         <div className="soaps-page">
             <div className="custom-font">
-                <Navbar/>
                 <h3 className="text-center list-title border-bottom">Soaps</h3>
                 <div className="container">
                     {renderList(soaps)}

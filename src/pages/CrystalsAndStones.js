@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 
 import { crystalsAndStones } from '../data';
@@ -11,21 +10,8 @@ const CrystalsAndStones = () => {
         window.scrollTo(0, 0)
     }, []);
 
-    // Qty of two Code
-
-    // const timesTwo = (arr) => {
-    //     for ( let i = 0; i < arr.length; i++ ) {
-    //         if (arr[i].qty) {
-    //             console.log(arr[i].qty);
-    //         }
-    //     }
-    // }
-
-    // timesTwo(crystalsAndStones)
-
     return (
         <div className="custom-font crystals-and-stones-page">
-            <Navbar/>
             <h3 className="text-center list-title border-bottom">Crystals And Stones</h3>
             <div className="container">
                     {renderList(crystalsAndStones)}

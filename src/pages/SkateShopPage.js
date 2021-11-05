@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar/Navbar.js';
 import Footer from '../components/Footer/Footer.js';
 
 import { renderList } from '../helper.js';
@@ -14,7 +13,6 @@ const SkateShopPage = () => {
 
     return (
         <div className='custom-font skate-shop-page'>
-            <Navbar/>
                 <h3 className="text-center list-title border-bottom">Skate Decks</h3>
                 <div className="container">
                     {renderList(decks)}  

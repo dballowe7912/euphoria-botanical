@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar/Navbar.js';
 import Footer from '../components/Footer/Footer.js';
 
 import { renderList } from '../helper.js';
@@ -16,7 +15,6 @@ const EssentialOils = () => {
     return (
         <div className="essential-oils-page">
             <div className="custom-font">
-                <Navbar/>
                 <h3 className="text-center list-title border-bottom">Essential Oils (10ml)</h3>
                 <div className="container">
                     {renderList(essentialOils10ml)}  

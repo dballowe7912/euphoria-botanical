@@ -2,12 +2,16 @@
     font-family: 'Charm', cursive !important;
     color: #000;
 }
-  
+
 .nav-link {
     text-decoration: none;
 }
-  
+
 .nav-style {
     background-color: #FFF;
     box-shadow: 0px 0px 15px 12px rgba(0, 0, 0, 0.035);
+}
+
+.nav-link.sign-out:hover {
+    cursor: pointer;
 }
