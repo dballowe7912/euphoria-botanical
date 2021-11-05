@@ -61,7 +61,7 @@ class SignIn extends Component {
                     />
                     <div className='buttons'>
                         <input className='btn btn-success' type='submit' value='Sign In' />
-                        <input onClick={signInWithGoogle} className='btn btn-google' type='submit' value='Sign In With Google' />
+                        <input onClick={signInWithGoogle} className='btn btn-google' type='button' value='Sign In With Google' />
                     </div>
                 </form>
             </div>

@@ -61,7 +61,7 @@ class App extends Component {
     render() {
         return (
         <div className="app bg-light">
-            <Navbar currentUser={this.state.currentUser} />
+            <Navbar/>
             <Switch>
                 <Route path="/skateboard-shop" component={SkateShopPage} />
                 <Route path="/crystals-and-stones" component={CrystalsAndStones} />
