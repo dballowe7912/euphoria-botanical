@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { auth } from '../../firebase/firebase.utils';
+
 import { connect } from 'react-redux';
+import { auth } from '../../firebase/firebase.utils';
 
 import './Navbar.scss';
 
@@ -63,7 +64,6 @@ const Navbar = ({ currentUser }) => {
                     <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
                 <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
-                    {/* <Link className="nav-link" to="/signin">Sign In</Link> */}
                     {
                         currentUser ? 
                         <div className='nav-link sign-out' onClick={() => auth.signOut()}>Sign out</div>
