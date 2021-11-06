@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
 import { connect } from 'react-redux';
+
 import { auth } from '../../firebase/firebase.utils';
+import CartIcon from '../CartIcon/CartIcon';
+import CartDropdown from '../CartDropdown/CartDropdown';
 
 import './Navbar.scss';
 
-const Navbar = ({ currentUser }) => {
+const Navbar = ({ currentUser, hidden }) => {
 
     const [ handleToggleClick, setHandleToggleClick ] = useState(false)
 
@@ -71,14 +73,22 @@ const Navbar = ({ currentUser }) => {
                         <Link className='nav-link' to='/signin'>Sign in</Link>
                     }
                 </li>
+                <li className='nav-item'>
+                    <CartIcon />
+                </li>
             </ul>
+            {
+                hidden ? null :
+                <CartDropdown/>
+            }
         </div>
     </nav>
     )
 }
 
-const mapStateToProps = state => ({
-    currentUser: state.user.currentUser
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
+    currentUser,
+    hidden
 })
 
 export default connect(mapStateToProps)(Navbar);
