@@ -6,16 +6,19 @@ const dryHerbs = [
         imgSrc: './assets/dry-herb-photos/akuamma.jpg',
         pricing: [
             {
+                id: 1,
                 type: "seed",
                 size: "1 oz",
                 price: 7.35
             },
             {
+                id: 2,
                 type: "powder",
                 size: "1 oz",
                 price: 8.25
             },
             {
+                id: 3,
                 type: "cap",
                 size: "cup",
                 price: .25
@@ -30,11 +33,13 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/blue-lotus.jpg',
         pricing: [
             {
+                id: 4,
                 type: "",
                 size: "1 oz",
                 price: 10.40
             },
             {
+                id: 5,
                 type: "",
                 size: "1 gram",
                 price: .50
@@ -49,6 +54,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/cats-claw.jpeg',
         pricing: [
             {
+                id: 6,
                 type: "",
                 size: "1 oz",
                 price: 2.25
@@ -63,6 +69,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/damiana.jpeg',
         pricing: [
             {
+                id: 7,
                 type: "",
                 size: "1 oz",
                 price: 3.00
@@ -77,16 +84,19 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/horney-goat-weed.jpeg',
         pricing: [
             {
+                id: 8,
                 type: "Powder",
                 size: "1 oz",
                 price: 3.35
             },
             {
+                id: 9,
                 type: "Crushed Leaf",
                 size: "1 oz",
                 price: 2.35
             },
             {
+                id: 10,
                 type: "4:1 Extract",
                 size: "1 oz",
                 price: 6.85
@@ -101,6 +111,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/kanna.jpeg',
         pricing: [
             {
+                id: 11,
                 type: "",
                 size: "1 oz",
                 price: 14.58
@@ -115,6 +126,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/kava.jpeg',
         pricing: [
             {
+                id: 12,
                 type: "Extract",
                 size: "1 oz",
                 price: 21.99
@@ -129,6 +141,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/wild-dagga.jpeg',
         pricing: [
             {
+                id: 13,
                 type: "Leaf",
                 size: "1 oz",
                 price: 5.00
@@ -143,6 +156,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/wormwood.jpeg',
         pricing: [
             {
+                id: 14,
                 type: "",
                 size: "1 oz",
                 price: 2.25
@@ -157,6 +171,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/palo.jpeg',
         pricing: [
             {
+                id: 15,
                 type: "Detox Cleanse",
                 size: "1 oz",
                 price: 2.50,
@@ -171,6 +186,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/white-willow.jpeg',
         pricing: [
             {
+                id: 16,
                 type: "Powder",
                 size: "1 oz",
                 price: 2.75,
@@ -185,6 +201,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/marshmallow.jpeg',
         pricing: [
             {
+                id: 17,
                 type: "Powder",
                 size: "1 oz",
                 price: 3.75,
@@ -199,6 +216,7 @@ const dryHerbs = [
         imgSrc: '',
         pricing: [
             {
+                id: 18,
                 type: "",
                 size: "1 oz",
                 price: 15.00,
@@ -213,6 +231,7 @@ const dryHerbs = [
         imgSrc: '',
         pricing: [
             {
+                id: 19,
                 type: "",
                 size: "1 oz",
                 price: 3.75,
@@ -227,6 +246,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/lavender.jpeg',
         pricing: [
             {
+                id: 20,
                 type: "",
                 size: "1 oz",
                 price: 3.00,
@@ -241,6 +261,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/maitake.jpeg',
         pricing: [
             {
+                id: 21,
                 type: "",
                 size: "1 oz",
                 price: 4.90,
@@ -255,6 +276,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/matcha.jpeg',
         pricing: [
             {
+                id: 22,
                 type: "",
                 size: "1 oz",
                 price: 4.00,
@@ -269,6 +291,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/reishi.jpeg',
         pricing: [
             {
+                id: 23,
                 type: "",
                 size: "1 oz",
                 price: 4.90,
@@ -283,6 +306,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/skull-cap.jpeg',
         pricing: [
             {
+                id: 24,
                 type: "",
                 size: "1 oz",
                 price: 3.75,
@@ -297,11 +321,13 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/tumeric.jpeg',
         pricing: [
             {
+                id: 25,
                 type: "Capsule",
                 size: "1 capsule",
                 price: 0.25,
             },
             {
+                id: 26,
                 type: "Powder",
                 size: "1 oz",
                 price: 1.80,
@@ -316,6 +342,7 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/valerian.jpeg',
         pricing: [
             {
+                id: 27,
                 type: "",
                 size: "1 oz",
                 price: 2.25,
@@ -330,11 +357,13 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/white-sage.jpeg',
         pricing: [
             {
+                id: 28,
                 type: "Bundle",
                 size: "4 inch",
                 price: 6.99,
             },
             {
+                id: 29,
                 type: "Bundle",
                 size: "8 inch",
                 price: 12.99,

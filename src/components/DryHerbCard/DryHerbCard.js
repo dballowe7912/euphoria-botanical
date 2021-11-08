@@ -46,7 +46,7 @@ const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
                                 <div className="col text-right">Price</div>
                             </div>
                             {priceData.map(item  => (
-                                <div className="row border-bottom" style={{margin: "auto"}}>
+                                <div key={item.id}className="row border-bottom" style={{margin: "auto"}}>
                                     <div className="col py-1">{item.type}</div>
                                     <div className="col text-center py-1">{item.size}</div>
                                     <div className="col text-right py-1">${item.price.toFixed(2)}</div>
