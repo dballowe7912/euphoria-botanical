@@ -7,18 +7,21 @@ const dryHerbs = [
         pricing: [
             {
                 id: 1,
+                name: 'Akuamma',
                 type: "seed",
                 size: "1 oz",
                 price: 7.35
             },
             {
                 id: 2,
+                name: 'Akuamma',
                 type: "powder",
                 size: "1 oz",
                 price: 8.25
             },
             {
                 id: 3,
+                name: 'Akuamma',
                 type: "cap",
                 size: "cup",
                 price: .25
@@ -34,12 +37,14 @@ const dryHerbs = [
         pricing: [
             {
                 id: 4,
+                name: "Blue Lotus",
                 type: "",
                 size: "1 oz",
                 price: 10.40
             },
             {
                 id: 5,
+                name: "Blue Lotus",
                 type: "",
                 size: "1 gram",
                 price: .50
@@ -55,6 +60,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 6,
+                name: "Cats Claw",
                 type: "",
                 size: "1 oz",
                 price: 2.25
@@ -70,6 +76,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 7,
+                name: "Damiana",
                 type: "",
                 size: "1 oz",
                 price: 3.00
@@ -85,18 +92,21 @@ const dryHerbs = [
         pricing: [
             {
                 id: 8,
+                name: "Horney Goat Weed",
                 type: "Powder",
                 size: "1 oz",
                 price: 3.35
             },
             {
                 id: 9,
+                name: "Horney Goat Weed",
                 type: "Crushed Leaf",
                 size: "1 oz",
                 price: 2.35
             },
             {
                 id: 10,
+                name: "Horney Goat Weed",
                 type: "4:1 Extract",
                 size: "1 oz",
                 price: 6.85
@@ -112,6 +122,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 11,
+                name: "Kanna Shred",
                 type: "",
                 size: "1 oz",
                 price: 14.58
@@ -127,6 +138,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 12,
+                name: "Kava Extract",
                 type: "Extract",
                 size: "1 oz",
                 price: 21.99
@@ -142,6 +154,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 13,
+                name: "Wild Dagga Leaf (lions tail)",
                 type: "Leaf",
                 size: "1 oz",
                 price: 5.00
@@ -157,6 +170,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 14,
+                name: "Wormwood",
                 type: "",
                 size: "1 oz",
                 price: 2.25
@@ -172,6 +186,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 15,
+                name: "Palo Azule - Detox Cleanse",
                 type: "Detox Cleanse",
                 size: "1 oz",
                 price: 2.50,
@@ -187,6 +202,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 16,
+                name: "White Willow Bark Powder",
                 type: "Powder",
                 size: "1 oz",
                 price: 2.75,
@@ -202,6 +218,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 17,
+                name: "Marshmallow Root Powder",
                 type: "Powder",
                 size: "1 oz",
                 price: 3.75,
@@ -217,6 +234,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 18,
+                name: "Calea Zacatachichi",
                 type: "",
                 size: "1 oz",
                 price: 15.00,
@@ -232,6 +250,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 19,
+                name: "Ilex Guayusa",
                 type: "",
                 size: "1 oz",
                 price: 3.75,
@@ -247,6 +266,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 20,
+                name: "Lavender Petals",
                 type: "",
                 size: "1 oz",
                 price: 3.00,
@@ -262,6 +282,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 21,
+                name: "Maitake Mushroom",
                 type: "",
                 size: "1 oz",
                 price: 4.90,
@@ -277,6 +298,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 22,
+                name: "Matcha Green Tea",
                 type: "",
                 size: "1 oz",
                 price: 4.00,
@@ -292,6 +314,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 23,
+                name: "Reishi Mushroom",
                 type: "",
                 size: "1 oz",
                 price: 4.90,
@@ -307,6 +330,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 24,
+                name: "Blue Skull Cap Leaf",
                 type: "",
                 size: "1 oz",
                 price: 3.75,
@@ -322,12 +346,14 @@ const dryHerbs = [
         pricing: [
             {
                 id: 25,
+                name: "Tumeric",
                 type: "Capsule",
                 size: "1 capsule",
                 price: 0.25,
             },
             {
                 id: 26,
+                name: "Tumeric",
                 type: "Powder",
                 size: "1 oz",
                 price: 1.80,
@@ -343,6 +369,7 @@ const dryHerbs = [
         pricing: [
             {
                 id: 27,
+                name: "Valerian",
                 type: "",
                 size: "1 oz",
                 price: 2.25,
@@ -358,12 +385,14 @@ const dryHerbs = [
         pricing: [
             {
                 id: 28,
+                name: "White Sage",
                 type: "Bundle",
                 size: "4 inch",
                 price: 6.99,
             },
             {
                 id: 29,
+                name: "White Sage",
                 type: "Bundle",
                 size: "8 inch",
                 price: 12.99,

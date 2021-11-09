@@ -30,6 +30,8 @@ import DryHerbCard from '../components/DryHerbCard/DryHerbCard.js';
 
 const DryHerbs = (props) => {
     
+    console.log(props)
+
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -92,7 +94,6 @@ const DryHerbs = (props) => {
                         priceData={dryHerbs[5].pricing}
                         key='kanna'
                     />
-
 
                 </div>
 

@@ -9,7 +9,6 @@
   height: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
-  cursor: pointer;
   position: relative;
 }
 
@@ -80,4 +79,11 @@
   border-radius: 50%;
   padding: 10px;
   background-color: green;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

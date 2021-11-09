@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 
+import { connect } from 'react-redux';
+import { addItem } from '../../redux/cart/cart.actions';
+
 import './DryHerbCard.css';
 
-const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
+const DryHerbCard = ({ herbTitle, src, details, priceData, addItem }) => {
 
     const [flipped, setFlipped] = useState(false);
 
@@ -12,7 +15,7 @@ const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
 
     return (
         <div 
-            onClick={handleClick}
+            
             className="card-container col-md-4"
             key={herbTitle}
         >
@@ -29,7 +32,7 @@ const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
                         />
                         <div className="card-body">
                             <p className="card-text custom-font card-summary">{details}</p>
-                            <span>
+                            <span onClick={handleClick}>
                                 <i className="fas fa-arrow-right card-flip-icon"></i>
                             </span>
                         </div>
@@ -46,13 +49,17 @@ const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
                                 <div className="col text-right">Price</div>
                             </div>
                             {priceData.map(item  => (
-                                <div key={item.id}className="row border-bottom" style={{margin: "auto"}}>
+                                <div key={item.id} className="row border-bottom" style={{margin: "auto"}}>
                                     <div className="col py-1">{item.type}</div>
                                     <div className="col text-center py-1">{item.size}</div>
                                     <div className="col text-right py-1">${item.price.toFixed(2)}</div>
+                                    <button 
+                                        className='btn btn-success' 
+                                        onClick={() => addItem(item)}
+                                    >+</button>
                                 </div>
                             ))}
-                            <span>
+                            <span onClick={handleClick}>
                                 <i className="fas fa-undo card-flip-icon"></i>
                             </span>
                         </div>
@@ -63,4 +70,8 @@ const DryHerbCard = ({ herbTitle, src, details, priceData }) => {
     )
 }
 
-export default DryHerbCard;
+const mapDispatchToProps = dispatch => ({
+    addItem: item => dispatch(addItem(item))
+})
+
+export default connect(null, mapDispatchToProps)(DryHerbCard);
