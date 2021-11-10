@@ -25,8 +25,6 @@ import SkateShopPage from '../../pages/SkateShopPage';
 import SignInAndSignUpPage from '../../pages/sign-in-and-sign-up-page/SignInAndSignUpPage';
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 import Navbar from '../Navbar/Navbar';
-import SignUp from '../SignUp/SignUp';
-import SignIn from '../SignIn/SignIn';
 
 class App extends Component {
 

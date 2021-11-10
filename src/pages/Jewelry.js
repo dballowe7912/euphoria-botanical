@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import Footer from '../components/Footer/Footer';
 
-import { renderList } from '../helper';
-
 import { connect } from 'react-redux';
 import {addItem} from '../redux/cart/cart.actions';
 

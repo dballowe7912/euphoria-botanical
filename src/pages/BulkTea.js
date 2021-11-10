@@ -8,7 +8,6 @@ import { bulkTea } from '../data.js';
 
 
 const BulkTea = ({addItem}) => {
-
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
