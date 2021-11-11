@@ -7,6 +7,10 @@ import {
 import { connect } from 'react-redux';
 import { setCurrentUser } from '../../redux/user/user-actions';
 
+// Reselect
+import { createStructuredSelector } from 'reselect';
+import { selectCurrentUser } from '../../redux/user/user.selectors';
+
 // CSS
 import './App.scss';
 
@@ -25,6 +29,7 @@ import SkateShopPage from '../../pages/SkateShopPage';
 import SignInAndSignUpPage from '../../pages/sign-in-and-sign-up-page/SignInAndSignUpPage';
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 import Navbar from '../Navbar/Navbar';
+import CheckoutPage from '../../pages/checkout/CheckoutPage';
 
 class App extends Component {
 
@@ -60,6 +65,8 @@ class App extends Component {
         <div className="app bg-light">
             <Navbar/>
             <Switch>
+
+                <Route exact path="/checkout" component={CheckoutPage} />
                 <Route path="/skateboard-shop" component={SkateShopPage} />
                 <Route path="/crystals-and-stones" component={CrystalsAndStones} />
                 <Route path="/sprays" component={Sprays} />
@@ -78,8 +85,8 @@ class App extends Component {
     }
 }
 
-const mapStateToProps = ({ user }) => ({
-  currentUser: user.currentUser
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser
 })
 
 const mapDispatchToProps = dispatch => ({
