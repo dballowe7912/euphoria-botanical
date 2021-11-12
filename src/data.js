@@ -17,13 +17,13 @@ const dryHerbs = [
                 name: 'Akuamma',
                 type: "powder",
                 size: "1 oz",
-                price: 8.25
+                price: 8.35
             },
             {
                 id: 3,
                 name: 'Akuamma',
-                type: "cap",
-                size: "cup",
+                type: "capsule",
+                size: "1 ea",
                 price: .25
             }
         ],
@@ -38,7 +38,7 @@ const dryHerbs = [
             {
                 id: 4,
                 name: "Blue Lotus",
-                type: "",
+                type: "Dried Flower",
                 size: "1 oz",
                 price: 10.40
             },
@@ -46,7 +46,7 @@ const dryHerbs = [
                 id: 5,
                 name: "Blue Lotus",
                 type: "",
-                size: "1 gram",
+                size: "1 g",
                 price: .50
             },
         ],
@@ -61,7 +61,7 @@ const dryHerbs = [
             {
                 id: 6,
                 name: "Cats Claw",
-                type: "",
+                type: "Powder",
                 size: "1 oz",
                 price: 2.25
             },
@@ -77,7 +77,7 @@ const dryHerbs = [
             {
                 id: 7,
                 name: "Damiana",
-                type: "",
+                type: "Shredded Leaf",
                 size: "1 oz",
                 price: 3.00
             },
@@ -107,7 +107,7 @@ const dryHerbs = [
             {
                 id: 10,
                 name: "Horney Goat Weed",
-                type: "4:1 Extract",
+                type: "4:1 Extract Powder",
                 size: "1 oz",
                 price: 6.85
             },
@@ -123,7 +123,7 @@ const dryHerbs = [
             {
                 id: 11,
                 name: "Kanna Shred",
-                type: "",
+                type: "Shredded Leaf",
                 size: "1 oz",
                 price: 14.58
             }
@@ -139,7 +139,7 @@ const dryHerbs = [
             {
                 id: 12,
                 name: "Kava Extract",
-                type: "Extract",
+                type: "Powder",
                 size: "1 oz",
                 price: 21.99
             }
@@ -155,7 +155,7 @@ const dryHerbs = [
             {
                 id: 13,
                 name: "Wild Dagga Leaf (lions tail)",
-                type: "Leaf",
+                type: "Dried Flower",
                 size: "1 oz",
                 price: 5.00
             }
@@ -171,7 +171,7 @@ const dryHerbs = [
             {
                 id: 14,
                 name: "Wormwood",
-                type: "",
+                type: "Shredded Leaf",
                 size: "1 oz",
                 price: 2.25
             }
@@ -187,7 +187,7 @@ const dryHerbs = [
             {
                 id: 15,
                 name: "Palo Azule - Detox Cleanse",
-                type: "Detox Cleanse",
+                type: "Wood Chips",
                 size: "1 oz",
                 price: 2.50,
             }
@@ -228,14 +228,14 @@ const dryHerbs = [
     },
     {
         id: 13,
-        commonName: "Calea Zacatachichi",
+        commonName: "Calea Zacatachichi Dream Herb",
         scientificName: "Calea Ternifolia",
         imgSrc: '',
         pricing: [
             {
                 id: 18,
                 name: "Calea Zacatachichi",
-                type: "",
+                type: "Crushed Leaf",
                 size: "1 oz",
                 price: 15.00,
             }
@@ -251,7 +251,7 @@ const dryHerbs = [
             {
                 id: 19,
                 name: "Ilex Guayusa",
-                type: "",
+                type: "Powder",
                 size: "1 oz",
                 price: 3.75,
             }
@@ -267,7 +267,7 @@ const dryHerbs = [
             {
                 id: 20,
                 name: "Lavender Petals",
-                type: "",
+                type: "Petals",
                 size: "1 oz",
                 price: 3.00,
             }
@@ -283,7 +283,7 @@ const dryHerbs = [
             {
                 id: 21,
                 name: "Maitake Mushroom",
-                type: "",
+                type: "Powder",
                 size: "1 oz",
                 price: 4.90,
             }
@@ -315,7 +315,7 @@ const dryHerbs = [
             {
                 id: 23,
                 name: "Reishi Mushroom",
-                type: "",
+                type: "Powder",
                 size: "1 oz",
                 price: 4.90,
             }
@@ -331,9 +331,16 @@ const dryHerbs = [
             {
                 id: 24,
                 name: "Blue Skull Cap Leaf",
-                type: "",
+                type: "Shredded Leaf",
                 size: "1 oz",
-                price: 3.75,
+                price: 3.75
+            },
+            {
+                id: 25,
+                name: "Blue Skull",
+                type: "Powder",
+                size: "1 oz",
+                price: 3.75
             }
         ],
         details: "Blue Skull cap is used for trouble sleeping (insomnia), anxiety, stroke, paralysis caused by stroke, as well as, fever and high cholesterol."
@@ -345,14 +352,14 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/tumeric.jpeg',
         pricing: [
             {
-                id: 25,
+                id: 26,
                 name: "Tumeric",
                 type: "Capsule",
                 size: "1 capsule",
                 price: 0.25,
             },
             {
-                id: 26,
+                id: 27,
                 name: "Tumeric",
                 type: "Powder",
                 size: "1 oz",
@@ -368,9 +375,9 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/valerian.jpeg',
         pricing: [
             {
-                id: 27,
+                id: 28,
                 name: "Valerian",
-                type: "",
+                type: "Powder",
                 size: "1 oz",
                 price: 2.25,
             }
@@ -384,14 +391,14 @@ const dryHerbs = [
         imgSrc: '../assets/dry-herb-photos/white-sage.jpeg',
         pricing: [
             {
-                id: 28,
+                id: 29,
                 name: "White Sage",
                 type: "Bundle",
                 size: "4 inch",
                 price: 6.99,
             },
             {
-                id: 29,
+                id: 30,
                 name: "White Sage",
                 type: "Bundle",
                 size: "8 inch",
@@ -785,7 +792,8 @@ const essentialOils10ml = [
     {
         id: 102,
         name: "Rosemary",
-        price: 7.99
+        price: 7.99,
+        type: "Whole Leaf"
     },
     {
         id: 103,
