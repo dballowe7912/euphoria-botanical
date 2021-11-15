@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Footer from '../components/Footer/Footer';
 
 const ContactPage = () => {
 
@@ -33,7 +32,6 @@ const ContactPage = () => {
                     <hr/>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Footer from '../components/Footer/Footer.js';
 
 const AboutPage = () => {
     
@@ -18,7 +17,6 @@ const AboutPage = () => {
                     out our Essential Oils, Handmade Jewelry, Insence, Sage, Stones, Crystals, Handmade Soaps and even a Tea Lounge! Our 
                     local Euphoria Skate Shop offers Skate Clinics, Trejo Boards, Houston Skateboards and other skate gear and apparel.</p>
             </div>
-            <Footer/>
         </div>
     )
 }

@@ -25,12 +25,9 @@ import tumeric from '../assets/dry-herb-photos/tumeric.jpeg';
 import valerian from '../assets/dry-herb-photos/valerian.jpeg';
 import whiteSage from '../assets/dry-herb-photos/white-sage.jpeg';
 
-import Footer from '../components/Footer/Footer';
 import DryHerbCard from '../components/DryHerbCard/DryHerbCard.js';
 
 const DryHerbs = (props) => {
-    
-    console.log(props)
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -241,7 +238,6 @@ const DryHerbs = (props) => {
                  
             </div>
         </div>
-        <Footer/>
     </div>
     )
 }

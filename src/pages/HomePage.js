@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
 import Carousel from '../components/Carousel/Carousel';
 
 import oil from '../assets/homepage/oil.jpg';
@@ -74,7 +73,6 @@ const HomePage = () => {
                 </div>                       
             </div>
             <Carousel/>
-            <Footer/>
         </div>
     )
 }

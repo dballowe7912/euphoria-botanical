@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../components/Footer/Footer'
 import SignIn from '../../components/SignIn/SignIn'
 import SignUp from '../../components/SignUp/SignUp'
 
@@ -12,9 +11,8 @@ function SignInAndSignUpPage() {
                 <SignIn />
                 <SignUp />
             </div>
-            <Footer/>
         </div>
     )
 }
 
-export default SignInAndSignUpPage
+export default SignInAndSignUpPage;

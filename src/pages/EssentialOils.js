@@ -1,35 +1,19 @@
 import React, { useEffect } from 'react';
-import Footer from '../components/Footer/Footer.js';
 
 import { connect } from 'react-redux';
-import {addItem} from '../redux/cart/cart.actions';
+import { addItem } from '../redux/cart/cart.actions';
 
 import {essentialOils10ml} from '../data.js';
 import {essentialOilsRollons} from '../data.js';
 
-const EssentialOils = ({addItem}) => {
+const EssentialOils = ({ addItem }) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
 
     
-    let newList = essentialOils10ml.map((i) => 
-    <div className="row item" key={i.name}>
-        <div className="col-9 list-name">
-        {i.name}
-        </div>
-        <div className="col-3 list-price">
-        {i.price.toFixed(2)}
-        <button onClick={() => addItem(i)}>Add</button>
-        </div>
-        <div className="w-100"></div>
-        <hr />
-    </div>
-    )
-
-    
-    let newList2 = essentialOilsRollons.map((i) => 
+    const collectionList = (collection) => collection.map((i) => 
     <div className="row item" key={i.name}>
         <div className="col-9 list-name">
         {i.name}
@@ -48,13 +32,12 @@ const EssentialOils = ({addItem}) => {
             <div className="custom-font">
                 <h3 className="text-center list-title border-bottom">Essential Oils (10ml)</h3>
                 <div className="container">
-                    {newList} 
+                    {collectionList(essentialOils10ml)} 
                 </div>
                 <h3 className="text-center list-title border-bottom">Essential Oils (Roll-on)</h3>
                 <div className="container">
-                    {newList2}
+                    {collectionList(essentialOilsRollons)}
                 </div>
-                <Footer/>
             </div>
         </div>
     )

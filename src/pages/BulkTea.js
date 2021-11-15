@@ -1,18 +1,17 @@
 import React, { useEffect } from 'react';
-import Footer from '../components/Footer/Footer';
 
-import {addItem} from '../redux/cart/cart.actions';
+import { addItem } from '../redux/cart/cart.actions';
 import { connect } from 'react-redux';
 
 import { bulkTea } from '../data.js';
 
 
-const BulkTea = ({addItem}) => {
+const BulkTea = ({ addItem }) => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
 
-    let newList = bulkTea.map((i) => 
+    const collectionList = (collection) => collection.map((i) => 
     <div className="row item" key={i.name}>
         <div className="col-9 list-name">
         {i.name}
@@ -31,9 +30,8 @@ const BulkTea = ({addItem}) => {
             <h3 className="text-center list-title" >Bulk Tea</h3>
             <h5 className="text-center border-bottom">pricing per ounce</h5>
             <div className="container">
-                    {newList}
+                    {collectionList(bulkTea)}
             </div>
-            <Footer/>
         </div>
     )
 }

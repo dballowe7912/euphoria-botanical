@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
-import Footer from '../components/Footer/Footer';
 
-import {addItem} from '../redux/cart/cart.actions';
+import { addItem } from '../redux/cart/cart.actions';
 import { connect } from 'react-redux';
 
 import { crystalsAndStones } from '../data';
@@ -13,7 +12,7 @@ const CrystalsAndStones = ({addItem}) => {
         window.scrollTo(0, 0)
     }, []);
 
-    let newList = crystalsAndStones.map((i) => 
+    const collectionList = (collection) => collection.map((i) => 
     <div className="row item" key={i.name}>
         <div className="col-9 list-name">
         {i.name}
@@ -31,9 +30,8 @@ const CrystalsAndStones = ({addItem}) => {
         <div className="custom-font crystals-and-stones-page">
             <h3 className="text-center list-title border-bottom">Crystals And Stones</h3>
             <div className="container">
-                {newList}
+                {collectionList(crystalsAndStones)}
             </div>
-            <Footer/>
         </div>
     )
 }

@@ -30,6 +30,7 @@ import SignInAndSignUpPage from '../../pages/sign-in-and-sign-up-page/SignInAndS
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 import Navbar from '../Navbar/Navbar';
 import CheckoutPage from '../../pages/checkout/CheckoutPage';
+import Footer from '../Footer/Footer';
 
 class App extends Component {
 
@@ -61,11 +62,10 @@ class App extends Component {
     }
 
     render() {
-        return (
+      return (
         <div className="app bg-light">
             <Navbar/>
             <Switch>
-
                 <Route exact path="/checkout" component={CheckoutPage} />
                 <Route path="/skateboard-shop" component={SkateShopPage} />
                 <Route path="/crystals-and-stones" component={CrystalsAndStones} />
@@ -77,11 +77,12 @@ class App extends Component {
                 <Route path="/herbs" component={DryHerbs} />
                 <Route path="/about" component={AboutPage} />
                 <Route path="/contact" component={ContactPage} />
-                <Route exact path="/" component={HomePage} />
                 <Route path='/signin' exact render={() => this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndSignUpPage/>)} />
+                <Route exact path="/" component={HomePage} />
             </Switch>
+            <Footer />
         </div>
-        )
+      )
     }
 }
 
