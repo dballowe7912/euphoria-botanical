@@ -240,6 +240,6 @@ const DryHerbs = (props) => {
         </div>
     </div>
     )
-}
+};
 
 export default DryHerbs;

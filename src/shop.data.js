@@ -1080,7 +1080,7 @@ const SHOP_DATA = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         title: 'Crystals and Stones',
         routeName: 'crystals-and-stones',
         items: [
@@ -1704,7 +1704,7 @@ const SHOP_DATA = [
         ]
     },
     {
-        id: 7,
+        id: 8,
         title: 'Skateboards and Accessories',
         routeName: 'skateboard-shop',
         items: [

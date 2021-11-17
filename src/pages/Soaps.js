@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import { connect } from 'react-redux';
-import {addItem} from '../redux/cart/cart.actions';
+import { addItem } from '../redux/cart/cart.actions';
 
 import { soaps } from '../data';
 import { goatsMilk3oz } from '../data';
@@ -15,14 +15,14 @@ const Soaps = ({ addItem }) => {
         window.scrollTo(0, 0)
     }, []);
 
-    const collectionList = (collection) => collection.map((i) => 
-    <div className="row item" key={i.name}>
+    const collectionList = (collection) => collection.map((collectionItem) => 
+    <div className="row item" key={collectionItem.name}>
         <div className="col-9 list-name">
-        {i.name}
+        {collectionItem.name}
         </div>
         <div className="col-3 list-price">
-        {i.price.toFixed(2)}
-        <button onClick={() => addItem(i)}>Add</button>
+        {collectionItem.price.toFixed(2)}
+        <button onClick={() => addItem(collectionItem)}>Add</button>
         </div>
         <div className="w-100"></div>
         <hr />

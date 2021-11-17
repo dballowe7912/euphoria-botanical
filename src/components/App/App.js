@@ -95,3 +95,5 @@ const mapDispatchToProps = dispatch => ({
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+// https://github.com/mars/create-react-app-buildpack.git buildpack
