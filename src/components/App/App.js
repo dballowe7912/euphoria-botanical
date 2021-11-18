@@ -33,7 +33,7 @@ import CheckoutPage from '../../pages/checkout/CheckoutPage';
 import Footer from '../Footer/Footer';
 
 class App extends Component {
-
+    
     unsubscribeFromAuth = null
 
     componentDidMount() {
@@ -62,19 +62,20 @@ class App extends Component {
     }
 
     render() {
+      console.log(this.props)
       return (
         <div className="app bg-light">
             <Navbar/>
             <Switch>
                 <Route exact path="/checkout" component={CheckoutPage} />
-                <Route path="/skateboard-shop" component={SkateShopPage} />
+                <Route path="/shop/skate-shop" component={SkateShopPage} />
                 <Route path="/crystals-and-stones" component={CrystalsAndStones} />
                 <Route path="/sprays" component={Sprays} />
-                <Route path="/jewelry" component={Jewelry}/>
-                <Route path="/soaps" component={Soaps} />
-                <Route path="/oils" component={EssentialOils} />
-                <Route path="/teas" component={BulkTea} />
-                <Route path="/herbs" component={DryHerbs} />
+                <Route path="/shop/jewelry" component={Jewelry}/>
+                <Route path="/shop/soaps" component={Soaps} />
+                <Route path="/shop/essential-oils" component={EssentialOils} />
+                <Route path="/shop/bulk-tea" component={BulkTea} />
+                <Route path="/shop/dry-herbs" component={DryHerbs} />
                 <Route path="/about" component={AboutPage} />
                 <Route path="/contact" component={ContactPage} />
                 <Route path='/signin' exact render={() => this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndSignUpPage/>)} />

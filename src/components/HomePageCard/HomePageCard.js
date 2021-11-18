@@ -1,14 +1,14 @@
 import React from 'react';
 import { useHistory } from 'react-router';
 
-import './HomePageCard.css';
+import './HomePageCard.scss';
 
-const HomePageCard = ({ altPhoto, photoSrc, shopBtn, pageLink }) => {
+const HomePageCard = ({ altPhoto, title, linkUrl, imageUrl }) => {
 
     let history = useHistory();
 
     const handleClick = () => {
-        history.push(pageLink);
+        history.push(linkUrl);
     }
 
     return (
@@ -19,13 +19,24 @@ const HomePageCard = ({ altPhoto, photoSrc, shopBtn, pageLink }) => {
             <div className="card">
                 <div className=" card__face card__face--front">
                     <div className="card">
-                        <p className="card-text custom-font card-title">{shopBtn}</p>
-                        <img className="card-img-top card-img-style" 
+                        <p className="card-text custom-font card-title">{title}</p>
+                        <div className="card-img-top card-img-style" 
                             alt={altPhoto}
-                            src={photoSrc}
                             data-holder-rendered="true"
+                            style={{
+                                backgroundImage: `url(${imageUrl})`,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                                backgroundRepeat: 'no-repeat',
+                            }}
                         />
-                        <button className="btn btn-success shop-button">Shop Now</button>
+                        <button 
+                            className="btn btn-success shop-button"
+                            style={{
+                                marginTop: '10px',
+                                width: 'auto'
+                            }}
+                        >Shop Now</button>
                     </div>
                 </div>
             </div>

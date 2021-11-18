@@ -52,24 +52,24 @@ const Navbar = ({ currentUser, hidden }) => {
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" ng-click="isCollapsed = !isCollapsed">
                         Products
                     </a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/herbs">Dry Herbs</Link>
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/teas">Bulk Teas</Link>
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/oils">Essential Oils</Link>
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/soaps">Soaps</Link>
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/jewelry">Jewelry</Link>
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/crystals-and-stones">Crystals and Stones</Link>   
-                        <Link onClick={() => setHandleToggleClick(!handleToggleClick)} className="dropdown-item" to="/skateboard-shop">Skateboards and Accessories</Link>   
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown" onClick={() => setHandleToggleClick(!handleToggleClick)}>
+                        <Link className="dropdown-item" to="/shop/dry-herbs">Dry Herbs</Link>
+                        <Link className="dropdown-item" to="/shop/bulk-tea">Bulk Teas</Link>
+                        <Link className="dropdown-item" to="/shop/essential-oils">Essential Oils</Link>
+                        <Link className="dropdown-item" to="/shop/soaps">Soaps</Link>
+                        <Link className="dropdown-item" to="/shop/jewelry">Jewelry</Link>
+                        <Link className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
+                        <Link className="dropdown-item" to="/crystals-and-stones">Crystals and Stones</Link>   
+                        <Link className="dropdown-item" to="/shop/skate-shop">Skateboards and Accessories</Link>   
                     </div>
                 </li>
-                <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
+                <li className="nav-item" >
                     <Link className="nav-link" to="/about" ng-click="isCollapsed = !isCollapsed">About us</Link>
                 </li>
-                <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
+                <li className="nav-item" >
                     <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
-                <li className="nav-item" onClick={() => setHandleToggleClick(!handleToggleClick)}>
+                <li className="nav-item" >
                     {
                         currentUser ? 
                         <div className='nav-link sign-out' onClick={() => auth.signOut()}>Sign out</div>

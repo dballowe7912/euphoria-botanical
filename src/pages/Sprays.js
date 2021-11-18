@@ -6,12 +6,11 @@ import { addItem } from '../redux/cart/cart.actions';
 import { roomSprays } from '../data';
 import { bodySprays } from '../data';
 
-const Sprays = ({ addItem }) => {
+const Sprays = ({ addItem, match }) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, []);
-    
     
     const collectionList = (collection) => collection.map((collectionItem) => 
         <div className="row item" key={collectionItem.name}>
@@ -20,7 +19,11 @@ const Sprays = ({ addItem }) => {
             </div>
             <div className="col-3 list-price">
             {collectionItem.price.toFixed(2)}
-            <button onClick={() => addItem(collectionItem)}>Add</button>
+            <button 
+                onClick={() => addItem(collectionItem)}
+                className='btn btn-success'
+                style={{marginLeft: '10px'}}
+            >Add</button>
             </div>
             <div className="w-100"></div>
             <hr />
