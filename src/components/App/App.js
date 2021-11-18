@@ -12,25 +12,25 @@ import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 // CSS
-import './App.scss';
+import './App.styles.scss';
 
 // Pages
-import HomePage from '../../pages/HomePage';
-import AboutPage from '../../pages/AboutPage';
-import ContactPage from '../../pages/ContactPage';
-import DryHerbs from '../../pages/DryHerbs';
-import BulkTea from '../../pages/BulkTea';
-import EssentialOils from '../../pages/EssentialOils';
-import Soaps from '../../pages/Soaps';
-import Jewelry from '../../pages/Jewelry';
-import Sprays from '../../pages/Sprays';
-import CrystalsAndStones from '../../pages/CrystalsAndStones';
-import SkateShopPage from '../../pages/SkateShopPage';
-import SignInAndSignUpPage from '../../pages/sign-in-and-sign-up-page/SignInAndSignUpPage';
+import HomePage from '../../pages/homepage/homepage.component';
+import AboutPage from '../../pages/about/about-page.component';
+import ContactPage from '../../pages/contact/contact.component';
+import DryHerbs from '../../pages/dry-herbs/dry-herbs.component';
+import BulkTea from '../../pages/bulk-tea/bulk-tea.component';
+import EssentialOils from '../../pages/essential-oils/essential-oils.component';
+import Soaps from '../../pages/soaps/soaps.component';
+import Jewelry from '../../pages/jewelry/jewelry.component';
+import Sprays from '../../pages/sprays/sprays.component';
+import CrystalsAndStones from '../../pages/crystals-and-stones/crystals-and-stones.component';
+import SkateShopPage from '../../pages/skate-shop/skate-shop.component';
+import SignInAndSignUpPage from '../../pages/sign-in-and-sign-up-page/sign-in-and-sign-up.component';
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
-import Navbar from '../Navbar/Navbar';
-import CheckoutPage from '../../pages/checkout/CheckoutPage';
-import Footer from '../Footer/Footer';
+import Navbar from '../navbar/navbar.component';
+import CheckoutPage from '../../pages/checkout/checkout-page.component';
+import Footer from '../footer/footer.component';
 
 class App extends Component {
     
