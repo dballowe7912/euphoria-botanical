@@ -36,7 +36,7 @@ const DryHerbs = (props) => {
     return (
     <div className="dry-herbs-page">
         <div className="album bg-light">
-            <div className="container">
+            <div className="dry-herbs-album-container container">
             <div className="row">
                 <h1 className="custom-font text-center page-title">Dry Herbs</h1>
             </div>

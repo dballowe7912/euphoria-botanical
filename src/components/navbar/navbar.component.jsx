@@ -64,17 +64,36 @@ const Navbar = ({ currentUser, hidden }) => {
                     </div>
                 </li>
                 <li className="nav-item" >
-                    <Link className="nav-link" to="/about" ng-click="isCollapsed = !isCollapsed">About us</Link>
+                    <Link 
+                        className="nav-link" 
+                        to="/about" 
+                        ng-click="isCollapsed = !isCollapsed"
+                        onClick={() => setHandleToggleClick(!handleToggleClick)}
+                    >
+                        About us
+                    </Link>
                 </li>
                 <li className="nav-item" >
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link 
+                        className="nav-link" 
+                        to="/contact"
+                        onClick={() => setHandleToggleClick(!handleToggleClick)}
+                    >
+                        Contact
+                    </Link>
                 </li>
                 <li className="nav-item" >
                     {
                         currentUser ? 
                         <div className='nav-link sign-out' onClick={() => auth.signOut()}>Sign out</div>
                         :
-                        <Link className='nav-link' to='/signin'>Sign in</Link>
+                        <Link 
+                            className='nav-link' 
+                            to='/signin'
+                            onClick={() => setHandleToggleClick(!handleToggleClick)}
+                        >
+                            Sign in
+                        </Link>
                     }
                 </li>
                 <li className='nav-item'>

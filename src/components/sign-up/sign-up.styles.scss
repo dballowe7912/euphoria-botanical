@@ -4,8 +4,11 @@
     flex-direction: column;
     margin: 60px auto; 
 
-    .title {
-        margin: 10px 0;
+    h2 {
+        @media screen and (max-width: 800px) {
+            font-size: 1rem;
+            font-weight: bold;
+        }
     }
 
 }
