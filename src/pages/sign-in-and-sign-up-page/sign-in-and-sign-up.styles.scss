@@ -6,4 +6,21 @@
 
 .sign-up-and-sign-in-container {
     display: flex;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .sign-in {
+        @media screen and (max-width: 800px) {
+            width: 80%;
+        }
+    }
+
+    .sign-up {
+        @media screen and (max-width: 800px) {
+            width: 80%;
+        }
+    }
 }

@@ -8,8 +8,8 @@ function SignInAndSignUpPage() {
     return (
         <div className='sign-in-and-sign-up w-100'>
             <div className='sign-up-and-sign-in-container'>
-                <SignIn />
-                <SignUp />
+                <SignIn className='sign-in'/>
+                <SignUp className='sign-up' />
             </div>
         </div>
     )

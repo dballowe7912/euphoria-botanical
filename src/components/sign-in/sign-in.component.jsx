@@ -60,7 +60,7 @@ class SignIn extends Component {
                         label='password'
                     />
                     <div className='buttons'>
-                        <input className='btn btn-success' type='submit' value='Sign In' />
+                        <input className='btn btn-success' type='submit' value='Sign In' style={{marginRight: '5px'}}/>
                         <input onClick={signInWithGoogle} className='btn btn-google' type='button' value='Sign In With Google' />
                     </div>
                 </form>
