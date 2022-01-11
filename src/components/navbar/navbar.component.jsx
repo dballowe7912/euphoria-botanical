@@ -24,6 +24,13 @@ const Navbar = ({ currentUser, hidden }) => {
         >
             Euphoria Botanical
         </Link>
+        <p 
+            className='c d-flex custom-font justify-content-center'
+        >
+            903-983-0213
+            <br/>
+            Call to order
+        </p>
         <button 
             className="navbar-toggler" 
             id="toggleButt" 
@@ -82,7 +89,7 @@ const Navbar = ({ currentUser, hidden }) => {
                         Contact
                     </Link>
                 </li>
-                <li className="nav-item" >
+                {/* <li className="nav-item" >
                     {
                         currentUser ? 
                         <div className='nav-link sign-out' onClick={() => auth.signOut()}>Sign out</div>
@@ -95,15 +102,15 @@ const Navbar = ({ currentUser, hidden }) => {
                             Sign in
                         </Link>
                     }
-                </li>
-                <li className='nav-item'>
-                    <CartIcon />
-                </li>
+                </li> */}
+                {/* <li className='nav-item'>
+                    <CartIcon className='disabled'/>
+                </li> */}
             </ul>
-            {
+            {/* {
                 hidden ? null :
                 <CartDropdown/>
-            }
+            } */}
         </div>
     </nav>
     )

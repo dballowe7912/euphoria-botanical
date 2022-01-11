@@ -200,7 +200,7 @@ const SHOP_DATA = [
             {
                 id: 13,
                 commonName: "Calea Zacatachichi",
-                scientificName: "Calea Ternifolia",
+                scientificName: "Calea Zacatachichi",
                 imgSrc: '',
                 pricing: [
                     {
@@ -214,8 +214,8 @@ const SHOP_DATA = [
             {
                 id: 14,
                 commonName: "Ilex Guayusa",
-                scientificName: "../assets/dry-herb-photos/ilex.jpeg",
-                imgSrc: '',
+                scientificName: "",
+                imgSrc: '../assets/dry-herb-photos/ilex.jpeg',
                 pricing: [
                     {
                         type: "",

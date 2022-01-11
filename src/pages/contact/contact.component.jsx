@@ -19,7 +19,7 @@ const ContactPage = () => {
                     <hr/>
                     <div>
                         <h5>Email: </h5>
-                        <p>euphoriabotanical@gmail.com</p>
+                        <a href="mailto://euphoriabotanical@gmail.com">euphoriabotanical@gmail.com</a>
                     </div>
                     <hr/>
                     <div>
