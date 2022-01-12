@@ -18,11 +18,11 @@ const Sprays = ({ addItem }) => {
             </div>
             <div className="col-3 list-price">
             {collectionItem.price.toFixed(2)}
-            <button 
+            {/* <button 
                 onClick={() => addItem(collectionItem)}
                 className='btn btn-success'
                 style={{marginLeft: '10px'}}
-            >Add</button>
+            >Add</button> */}
             </div>
             <div className="w-100"></div>
             <hr />

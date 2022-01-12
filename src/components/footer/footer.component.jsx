@@ -16,6 +16,12 @@ const Footer = () => (
                     <li className="nav-item mb-2">
                         <Link to="/about">About Us</Link>
                     </li>
+                    <li>
+                        <Link to="/terms-and-conditions">Terms and Conditions</Link>
+                    </li>
+                    <li>
+                        <Link to="/privacy-policy">Privacy Policy</Link>
+                    </li>
                 </ul>
             </div>
             <div className="col footer-sitemap-column">
@@ -37,10 +43,10 @@ const Footer = () => (
                     <Link to="/shop/jewelry">Jewelry</Link>
                     </li>
                 <li className="nav-item mb-2">
-                    <Link to="/sprays">Body and Room Sprays</Link>
+                    <Link to="/shop/sprays">Body and Room Sprays</Link>
                 </li>
                 <li className="nav-item mb-2">
-                    <Link to="/crystals-and-stones">Crystals and Stones</Link>
+                    <Link to="/shop/crystals-and-stones">Crystals and Stones</Link>
                 </li>
                 <li className="nav-item mb-2">
                     <Link to="/shop/skateboard-shop">Skate Boards and Accessories</Link>

@@ -17,11 +17,11 @@ const BulkTea = ({ addItem }) => {
             </div>
             <div className="col-3 list-price">
             {collectionItem.price.toFixed(2)}
-            <button 
+            {/* <button 
                 className='btn btn-success' 
                 onClick={() => addItem(collectionItem)} 
                 style={{marginLeft: '10px'}}
-            >Add</button>
+            >Add</button> */}
             </div>
             <div className="w-100"></div>
             <hr />

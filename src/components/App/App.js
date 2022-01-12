@@ -30,6 +30,8 @@ import SignInAndSignUpPage from '../../pages/sign-in-and-sign-up-page/sign-in-an
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 import Navbar from '../navbar/navbar.component';
 import CheckoutPage from '../../pages/checkout/checkout-page.component';
+import PrivacyPolicy from '../../pages/privacy-policy/privacy-policy.component';
+import TermsAndConditions from '../../pages/terms-and-conditions/terms-and-conditions.component';
 import Footer from '../footer/footer.component';
 
 class App extends Component {
@@ -67,9 +69,11 @@ class App extends Component {
           <GlobalStyle />
             <Navbar/>
             <Switch>
+                <Route path="/terms-and-conditions" component={TermsAndConditions} />
+                <Route path="/privacy-policy" component={PrivacyPolicy} />
                 <Route exact path="/checkout" component={CheckoutPage} />
                 <Route path="/shop/skate-shop" component={SkateShopPage} />
-                <Route path="/crystals-and-stones" component={CrystalsAndStones} />
+                <Route path="/shop/crystals-and-stones" component={CrystalsAndStones} />
                 <Route path="/sprays" component={Sprays} />
                 <Route path="/shop/jewelry" component={Jewelry}/>
                 <Route path="/shop/soaps" component={Soaps} />

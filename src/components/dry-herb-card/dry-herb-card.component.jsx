@@ -53,10 +53,10 @@ const DryHerbCard = ({ herbTitle, src, details, priceData, addItem }) => {
                                     <div className="col py-1">{item.type}</div>
                                     <div className="col text-center py-1">{item.size}</div>
                                     <div className="col text-right py-1">${item.price.toFixed(2)}</div>
-                                    <button 
+                                    {/* <button 
                                         className='btn btn-success' 
                                         onClick={() => addItem(item)}
-                                    >+</button>
+                                    >+</button> */}
                                 </div>
                             ))}
                             <span onClick={handleClick}>
