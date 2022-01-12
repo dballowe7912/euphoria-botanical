@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
@@ -8,6 +8,11 @@ import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selector
 import './checkout-page.styles.scss';
 
 function CheckoutPage({ cartItems, total }) {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='checkout-page'>
             <div className='checkout-header row'>

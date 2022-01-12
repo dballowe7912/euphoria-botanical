@@ -74,7 +74,7 @@ class App extends Component {
                 <Route exact path="/checkout" component={CheckoutPage} />
                 <Route path="/shop/skate-shop" component={SkateShopPage} />
                 <Route path="/shop/crystals-and-stones" component={CrystalsAndStones} />
-                <Route path="/sprays" component={Sprays} />
+                <Route path="/shop/sprays" component={Sprays} />
                 <Route path="/shop/jewelry" component={Jewelry}/>
                 <Route path="/shop/soaps" component={Soaps} />
                 <Route path="/shop/essential-oils" component={EssentialOils} />

@@ -65,8 +65,8 @@ const Navbar = ({ currentUser, hidden }) => {
                         <Link className="dropdown-item" to="/shop/essential-oils">Essential Oils</Link>
                         <Link className="dropdown-item" to="/shop/soaps">Soaps</Link>
                         <Link className="dropdown-item" to="/shop/jewelry">Jewelry</Link>
-                        <Link className="dropdown-item" to="/sprays">Body and Room Sprays</Link>   
-                        <Link className="dropdown-item" to="/crystals-and-stones">Crystals and Stones</Link>   
+                        <Link className="dropdown-item" to="/shop/sprays">Body and Room Sprays</Link>   
+                        <Link className="dropdown-item" to="/shop/crystals-and-stones">Crystals and Stones</Link>   
                         <Link className="dropdown-item" to="/shop/skate-shop">Skateboards and Accessories</Link>   
                     </div>
                 </li>

@@ -16,10 +16,10 @@ const Footer = () => (
                     <li className="nav-item mb-2">
                         <Link to="/about">About Us</Link>
                     </li>
-                    <li>
+                    <li className='nav-item mb-2'>
                         <Link to="/terms-and-conditions">Terms and Conditions</Link>
                     </li>
-                    <li>
+                    <li className='nav-item mb-2'>
                         <Link to="/privacy-policy">Privacy Policy</Link>
                     </li>
                 </ul>
@@ -49,7 +49,7 @@ const Footer = () => (
                     <Link to="/shop/crystals-and-stones">Crystals and Stones</Link>
                 </li>
                 <li className="nav-item mb-2">
-                    <Link to="/shop/skateboard-shop">Skate Boards and Accessories</Link>
+                    <Link to="/shop/skate-shop">Skate Boards and Accessories</Link>
                 </li>
             </ul>
         </div>
@@ -68,7 +68,7 @@ const Footer = () => (
                         </a>
                     </li>
                     <li>
-                        <span className="text-muted">© 2019 Euphoria Botanical</span>
+                        <span className="text-muted">© 2022 Euphoria Botanical</span>
                     </li>
                 </ul>
             </div>
