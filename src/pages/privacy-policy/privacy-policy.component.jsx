@@ -17,11 +17,6 @@ function PrivacyPolicy() {
             </p>
             <p>We use Your Personal data to provide and improve the Service. By using the Service,
                 You agree to the collection and use of information in accordance with this Privacy Policy. 
-                This Privacy Policy has been created with the help of the 
-                <a href="https://www.termsfeed.com/blog/sample-privacy-policy-template/" target="_blank">
-                    Privacy Policy Template
-                </a>
-                .
             </p>
             <h1>Interpretation and Definitions</h1>
             <h2>Interpretation</h2>
@@ -39,8 +34,8 @@ function PrivacyPolicy() {
                 </li>
                 <li>
                     <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, 
-                        &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Euphoria Botanical, 233 
-                        E. Main St, Kilgore, TX 75666.
+                        &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Euphoria Botanical, 222 
+                        E. Main St, Kilgore, TX 75662.
                     </p>
                 </li>
                 <li>
@@ -85,12 +80,11 @@ function PrivacyPolicy() {
                     </p>
                 </li>
                 <li>
-                    <p><strong>Website</strong> refers to Euphoria Botanical, accessible from 
-                        <a 
-                            href="http://euphoriabotanical.com" 
-                            rel="external nofollow noopener" 
-                            target="_blank">http://euphoriabotanical.com
-                        </a>
+                    <p>
+                       <strong>Website</strong> refers to Euphoria Botanical, accessible at {''}
+                        <a href="http://euphoriabotanical.com">
+                         <span>http://euphoriabotanical.com</span>
+                        </a>.
                     </p>
                 </li>
                 <li>
