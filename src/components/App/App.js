@@ -12,7 +12,7 @@ import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 // CSS
-import { GlobalStyle } from '../../global.styles';
+import './App.scss'
 
 // Pages
 import HomePage from '../../pages/homepage/homepage.component';
@@ -66,7 +66,7 @@ class App extends Component {
     render() {
       return (
         <div className="app bg-light">
-          <GlobalStyle />
+          {/* <GlobalStyle /> */}
             <Navbar/>
             <Switch>
                 <Route path="/terms-and-conditions" component={TermsAndConditions} />

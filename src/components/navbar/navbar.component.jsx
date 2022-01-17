@@ -89,7 +89,7 @@ const Navbar = ({ currentUser, hidden }) => {
                         Contact
                     </Link>
                 </li>
-                {/* <li className="nav-item" >
+                <li className="nav-item" >
                     {
                         currentUser ? 
                         <div className='nav-link sign-out' onClick={() => auth.signOut()}>Sign out</div>
@@ -102,15 +102,15 @@ const Navbar = ({ currentUser, hidden }) => {
                             Sign in
                         </Link>
                     }
-                </li> */}
-                {/* <li className='nav-item'>
+                </li>
+                <li className='nav-item'>
                     <CartIcon className='disabled'/>
-                </li> */}
+                </li>
             </ul>
-            {/* {
+            {
                 hidden ? null :
                 <CartDropdown/>
-            } */}
+            }
         </div>
     </nav>
     )
